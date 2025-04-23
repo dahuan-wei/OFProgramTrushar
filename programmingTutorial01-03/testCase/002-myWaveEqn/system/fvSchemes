@@ -1,0 +1,155 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      fvSchemes;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+ddtSchemes
+{
+    //default         steadyState;
+  default         Euler;
+  //default         backward;
+  //default         CrankNicolson 0.5;
+}
+
+d2dt2Schemes
+{
+    //default         steadyState;
+  default         Euler;
+  //default         backward;
+  //default         CrankNicolson 0.5;
+}
+
+/*ddtSchemes
+{
+    default         steadyState;
+}*/
+
+gradSchemes
+{
+      default         Gauss linear;
+
+//    default         cellMDLimited Gauss linear 1;
+
+/*
+Gauss
+cellLimited
+cellMDLimited
+extendedLeastSquares
+faceLimited
+faceMDLimited
+fourth
+leastSquares
+*/
+
+}
+
+divSchemes
+{
+    default         none;
+
+    div(phi,T)      bounded Gauss linear;
+
+//  div(phi,T)      Gauss upwind;
+
+//  div(phi,T)      Gauss limitedLinear 1;
+
+/*
+Gamma
+Gamma01
+LUST
+MUSCL
+MUSCL01
+Minmod
+OSPRE
+QUICK
+SFCD
+SuperBee
+UMIST
+biLinearFit
+blended
+clippedLinear
+cubic
+cubicUpwindFit
+downwind
+filteredLinear
+filteredLinear2
+filteredLinear3
+fixedBlended
+harmonic
+limitWith
+limitedCubic
+limitedCubic01
+limitedGamma
+limitedLimitedCubic
+limitedLimitedLinear
+limitedLinear
+limitedLinear01
+limitedMUSCL
+limitedVanLeer
+limiterBlended
+linear
+linearFit
+linearPureUpwindFit
+linearUpwind
+localBlended
+localMax
+localMin
+midPoint
+outletStabilised
+pointLinear
+quadraticFit
+quadraticLinearFit
+quadraticLinearUpwindFit
+quadraticUpwindFit
+reverseLinear
+skewCorrected
+upwind
+vanAlbada
+vanLeer
+vanLeer01
+weighted
+*/
+
+}
+
+laplacianSchemes
+{
+    default         Gauss linear corrected;
+    laplacian(DT,T) Gauss linear corrected;
+}
+
+/*
+corrected
+limited
+orthogonal
+uncorrected
+*/
+
+interpolationSchemes
+{
+    default         linear;
+}
+
+snGradSchemes
+{
+    default         corrected;
+}
+
+fluxRequired
+{
+    default         no;
+    T               ;
+}
+
+// ************************************************************************* //

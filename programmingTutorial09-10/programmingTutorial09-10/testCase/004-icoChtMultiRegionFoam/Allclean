@@ -1,0 +1,41 @@
+#!/bin/sh
+#set -x
+#set -v
+
+
+cd ${0%/*} || exit 1    # run from this directory
+
+# Source tutorial clean functions
+. $WM_PROJECT_DIR/bin/tools/CleanFunctions
+
+cleanCase
+
+# remove blockMesh files
+rm -f ./constant/polyMesh/points
+rm -f ./constant/polyMesh/owner
+rm -f ./constant/polyMesh/boundary
+rm -f ./constant/polyMesh/faces
+rm -f ./constant/polyMesh/neighbour
+
+# remove setSet files
+rm -rf VTK
+rm -rf constant/polyMesh/sets
+
+# remove setsToZones files
+rm -rf ./constant/polyMesh/sets
+
+# remove splitMeshRegions files
+# rm ./constant/cellToRegion # ... removed by cleanCase
+for dir in fluid solid
+do
+    rm -rf ./constant/$dir
+done
+
+rm -rf ./0/cellToRegion
+rm -rf ./0/fluid
+rm -rf ./0/solid
+
+
+set +x
+set +v
+# ----------------------------------------------------------------- end-of-file

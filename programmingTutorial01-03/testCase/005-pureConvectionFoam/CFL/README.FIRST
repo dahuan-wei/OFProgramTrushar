@@ -1,0 +1,24 @@
+#Steps to run the case
+
+#To clean the directory, this is optional
+
+foamCleanTutorials
+
+foamCleanPolyMesh
+
+#To generate the mesh and check mesh quality
+
+blockMesh
+
+checkMesh
+
+
+# To run in serial:
+
+pureConvectionFoam > pureConvectionFoam.log &
+
+sample -latestTime
+
+#Visualization
+
+paraFoam

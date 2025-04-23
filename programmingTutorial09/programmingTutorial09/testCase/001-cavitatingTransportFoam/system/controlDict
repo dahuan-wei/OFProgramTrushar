@@ -1,0 +1,72 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application                cavitatingTransportFoam;
+
+startFrom                  latestTime;
+
+startTime                  0;
+
+stopAt                     endTime;
+
+endTime                    0.07;
+
+deltaT                     1e-08;
+
+writeControl               adjustableRunTime;
+
+writeInterval              1e-05;
+
+purgeWrite                 0;
+
+writeFormat                ascii;
+
+writePrecision             6;
+
+writeCompression           uncompressed;
+
+timeFormat                 general;
+
+runTimeModifiable          true;
+
+adjustTimeStep             on;
+
+maxCo           	   0.1;
+
+
+functions
+	{
+  	  faceObj1
+	  {
+		type 	faceSource;
+		functionObjectLibs ("libfieldFunctionObjects.so");
+		enabled true;
+		outputControl outputTime;
+		log true;
+		valueOutput true;
+ 		surfaceFormat   vtk;
+		source patch;
+  		sourceName outlet;
+		operation sum;
+	        fields
+		(
+			phi  
+			p			
+		);
+	 }
+
+	  
+// ************************************************************************* //

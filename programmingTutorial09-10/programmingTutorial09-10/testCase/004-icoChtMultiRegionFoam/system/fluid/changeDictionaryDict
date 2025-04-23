@@ -1,0 +1,279 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.7.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dictionaryReplacement
+{
+    U
+    {
+        internalField   uniform (1.01 0 0);
+
+        boundaryField
+        {
+            minX
+            {
+                type            fixedValue;
+                value           uniform ( 1.01 0 0 );
+            }
+            maxX
+            {
+	      type            inletOutlet;
+	      inletValue      uniform (0 0 0);
+	      value           uniform (1.01 0 0);
+	/*type            zeroGradient;
+	  value           uniform ( 1.01 0 0 );*/
+            }
+	    fluid_to_solid
+	      {
+		type fixedValue;
+		value uniform (0 0 0);
+	      }
+            minY
+            {
+                type            symmetryPlane;
+            }
+	    minZ
+	      {
+		type empty;
+	      }
+	    maxZ
+	      {
+		type empty;
+	      }
+        }
+    }
+
+    p
+    {
+        internalField   uniform 0;
+
+        boundaryField
+        {
+	          minX
+	          {
+		            type            zeroGradient;
+	          }
+            maxX
+	          {
+                type            fixedValue;
+                value           uniform 0;
+	          }
+	          fluid_to_solid
+	          {
+                type            zeroGradient;
+	          }
+            minY
+            {
+                type            symmetryPlane;
+            }
+	          minZ
+	          {
+		            type empty;
+	          }
+	          maxZ
+	          {
+		            type empty;
+	          }
+          }
+    }
+
+    T
+    {
+        internalField   uniform 400;
+
+        boundaryField
+        {
+            minX
+            {
+                type            fixedValue;
+                value           uniform 400;
+            }
+            maxX
+            {
+                type            zeroGradient;
+                value           uniform 400;
+            }
+            fluid_to_solid
+            {
+                type            solidWallMixedTemperatureCoupled;
+                neighbourFieldName T;
+                K               K;
+                value           uniform 300;
+            }
+            minY
+            {
+                type            symmetryPlane;
+            }
+            minZ
+	          {
+		            type empty;
+	          }
+	          maxZ
+	          {
+		            type empty;
+	          }
+        }
+    }
+
+    K
+      {
+	internalField   uniform 0.03;
+
+	boundaryField
+	  {
+	      minX
+	      {
+		        type            fixedValue;
+		        value           uniform 0.03;
+	      }
+	      maxX
+	      {
+		        type            fixedValue;
+		        value           uniform 0.03;
+	      }
+	      minY
+	      {
+		        type            symmetryPlane;
+	      }
+	      fluid_to_solid
+	      {
+		        type fixedValue;
+		        value uniform 0.03;
+	      }
+	      minZ
+	      {
+		        type empty;
+	      }
+	      maxZ
+	      {
+		        type empty;
+	      }
+	  }
+      }
+/*
+    k
+    {
+        internalField   uniform 0.0005;
+
+        boundaryField
+        {
+            minX
+            {
+                type            turbulentIntensityKineticEnergyInlet;
+                intensity       0.05;
+                value           uniform 0.0005;
+            }
+            maxX
+            {
+	      type            zeroGradient;//fixedValue;
+	      value           uniform 0.0005;
+            }
+            minY
+            {
+                type            symmetryPlane;
+            }
+	    fluid_to_solid
+	      {
+                type            kqRWallFunction;
+                value           uniform 0.0005;
+	      }
+	    minZ
+	      {
+		type empty;
+	      }
+	    maxZ
+	      {
+		type empty;
+	      }
+        }
+    }
+
+    epsilon
+    {
+        internalField   uniform 0.001;
+
+        boundaryField
+        {
+            minX
+            {
+                type            turbulentMixingLengthDissipationRateInlet;
+                mixingLength       0.01;
+                value           uniform 0.001;
+            }
+            maxX
+            {
+	      type            zeroGradient;//fixedValue;
+                value           uniform 0.01;
+            }
+	    fluid_to_solid
+	      {
+                type            epsilonWallFunction;
+                value           uniform 0.001;
+	      }
+            minY
+            {
+                type            symmetryPlane;
+            }
+	    minZ
+	      {
+		type empty;
+	      }
+	    maxZ
+	      {
+		type empty;
+	      }
+        }
+
+    }
+
+    nut
+    {
+        internalField   uniform 0;
+
+        boundaryField
+        {
+            minX
+            {
+	      type            calculated;
+	      value           uniform 0;
+            }
+            maxX
+            {
+                type            calculated;
+                value           uniform 0;
+            }
+	    fluid_to_solid
+	      {
+                type            nutWallFunction;
+                value           uniform 0;
+	      }
+            minY
+            {
+                type            symmetryPlane;
+            }
+	    minZ
+	      {
+		type empty;
+	      }
+	    maxZ
+	      {
+		type empty;
+	      }
+        }
+    }
+    */ 
+}
+
+// ************************************************************************* //

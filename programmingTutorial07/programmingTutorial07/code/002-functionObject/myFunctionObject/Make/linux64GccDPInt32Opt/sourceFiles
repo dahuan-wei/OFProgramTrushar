@@ -1,0 +1,3 @@
+SOURCE = \
+myFunctionObject/myFunctionObject.C \
+myFunctionObject/myFunctionObjectFunctionObject.C 

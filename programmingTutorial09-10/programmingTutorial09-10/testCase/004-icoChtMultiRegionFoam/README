@@ -1,0 +1,22 @@
+blockMesh
+
+setSet -batch makeCellSets.setSet
+
+setsToZones -noFlipMap
+
+splitMeshRegions -cellZones -overwrite
+
+changeDictionary -region fluid
+
+changeDictionary -region solid
+
+cp constant/transportProperties constant/fluid/
+cp constant/turbulenceProperties constant/fluid/
+
+icoChtMultiRegionFoam > log.out &
+
+//for paraFoam
+
+paraFoam -touchAll
+paraview
+

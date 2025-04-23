@@ -1,0 +1,2 @@
+SOURCE = \
+myPowerLawVelocityBCFvPatchVectorField.C 

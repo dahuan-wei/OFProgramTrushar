@@ -1,0 +1,162 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.7.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dictionaryReplacement
+{
+    T
+    {
+        internalField   uniform 300;
+
+        boundaryField
+        {
+            minX
+            {
+               type            zeroGradient;
+	             value           uniform 300;
+            }
+            maxX
+	          { 
+                type            zeroGradient;
+                value           uniform 300;
+            }
+            maxY
+            {
+                type            zeroGradient;
+                value           uniform 300;
+            }
+            solid_to_fluid
+            {
+                type            solidWallMixedTemperatureCoupled;
+                neighbourFieldName T;
+                K               K;
+                value           uniform 300;
+            }
+        }
+    }
+    
+    cp
+    {
+	      internalField   uniform 880;
+
+	      boundaryField
+	        {
+	          minX
+	          {
+		            type            fixedValue;
+		            value           uniform 880;
+	          }
+	          maxX
+	          {
+		            type            fixedValue;
+		            value           uniform 880;
+	          }
+	          maxY
+	          {
+		            type            fixedValue;
+		            value           uniform 880;
+	          }
+	          solid_to_fluid
+	          {
+		            type fixedValue;
+		            value uniform 880;
+	          }
+	          minZ
+	          {
+		            type empty;
+	          }
+	          maxZ
+	          {
+		            type empty;
+	          }
+	        }
+    }
+
+    K
+    {
+	      internalField   uniform 0.92;
+
+	      boundaryField
+	        {
+	          minX
+	          {
+		            type            fixedValue;
+		            value           uniform 0.92;
+	          }
+	          maxX
+	          {
+		            type            fixedValue;
+		            value           uniform 0.92;
+	          }
+	          maxY
+	          {
+		            type            fixedValue;
+		            value           uniform 0.92;
+	          }
+	          solid_to_fluid
+	          {
+		            type fixedValue;
+		            value uniform 0.92;
+	          }
+	          minZ
+	          {
+		            type empty;
+	          }
+	          maxZ
+	          {
+		            type empty;
+	          }
+	        }
+    }
+    
+    rho
+    {
+	      internalField   uniform 2500;
+
+	      boundaryField
+	        {
+	          minX
+	          {
+		            type            fixedValue;
+		            value           uniform 2500;
+	          }
+	          maxX
+	          {
+		            type            fixedValue;
+		            value           uniform 2500;
+	          }
+	          maxY
+	          {
+		            type            fixedValue;
+		            value           uniform 2500;
+	          }
+	          solid_to_fluid
+	          {
+		            type            fixedValue;
+		            value           uniform 2500;
+	          }
+	          minZ
+	          {
+		            type empty;
+	          }
+	          maxZ
+	          {
+		            type empty;
+	          }
+	        }
+    }
+    
+}
+// ************************************************************************* //

@@ -1,0 +1,55 @@
+#Steps to run the case
+
+RE = 250
+
+#To clean the directory, this is optional
+
+foamCleanTutorials
+
+foamCleanPolyMesh
+
+
+
+#To generate the mesh and check mesh quality
+
+blockMesh
+
+checkMesh
+
+
+
+
+# Various ways to run the case
+
+
+pyFoamPlotRunner.py --with-courant icoFoam		
+
+
+
+
+# or 
+
+
+
+icoFoam > log.icofoam &
+pyFoamPlotWatcher.py log.icofoam			
+
+
+
+# or 
+
+
+icoFoam | tee log.icofoam
+
+
+
+# or
+
+icoFoam > log.icofoam | tail -f log.icofoam
+
+
+
+# Visualization
+
+paraFoam
+

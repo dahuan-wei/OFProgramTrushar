@@ -1,0 +1,25 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//DT              DT [ 0 2 -1 0 0 0 0 ] 0.01;
+//DT              DT [ 0 2 -1 0 0 0 0 ] 0.1;
+
+//Dummy value to compute Peclet number
+//nu              nu [ 0 0 0 0 0 0 0 ] 1;
+
+//c              c [ 0 2 -1 0 0 0 0 ] 0.01;
+c              c [ 0 1 -1 0 0 0 0 ] 0.75;
+// ************************************************************************* //

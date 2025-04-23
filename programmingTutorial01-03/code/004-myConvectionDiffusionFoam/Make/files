@@ -1,0 +1,3 @@
+myConvectionDiffusionFoam.C
+
+EXE = $(FOAM_APPBIN)/myConvectionDiffusionFoam

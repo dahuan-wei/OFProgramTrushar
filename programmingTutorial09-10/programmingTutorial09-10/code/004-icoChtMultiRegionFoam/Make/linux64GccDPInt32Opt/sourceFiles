@@ -1,0 +1,6 @@
+SOURCE = \
+derivedFvPatchFields/solidWallHeatFluxTemperature/solidWallHeatFluxTemperatureFvPatchScalarField.C \
+derivedFvPatchFields/solidWallMixedTemperatureCoupled/solidWallMixedTemperatureCoupledFvPatchScalarField.C \
+fluid/icoCourantNo.C \
+solid/solidRegionDiffNo.C \
+icoChtMultiRegionFoam.C 

@@ -1,0 +1,7 @@
+timeVaryingParaboloidVelocityFvPatchVectorField.C 
+
+LIB = $(FOAM_USER_LIBBIN)/timeVaryingParaboloidVelocityBC
+
+
+
+

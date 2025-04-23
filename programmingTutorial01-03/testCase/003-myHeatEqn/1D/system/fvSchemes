@@ -1,0 +1,195 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      fvSchemes;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+ddtSchemes
+{
+    //default         boundedBackward;
+    //default         Euler;
+    default         CrankNicolson 1;
+
+/*
+CoEuler
+CrankNicolson
+Euler
+SLTS
+backward
+bounded
+boundedBackward
+localEuler
+steadyState
+*/
+}
+
+gradSchemes
+{
+        default         Gauss none;
+
+      //default         Gauss linear;
+
+        default         cellMDLimited Gauss linear 1;
+
+/*
+Gauss
+cellLimited
+cellMDLimited
+extendedLeastSquares
+faceLimited
+faceMDLimited
+fourth
+leastSquares
+*/
+
+}
+
+divSchemes
+{
+    default         none;
+
+//  div(phi,T)      Gauss linear;
+//  div(phi,T)      Gauss limitedLinear 1;
+//  div(phi,T)      Gauss limitedLinear01 1;
+//  div(phi,T)      Gauss filteredLinear;
+//  div(phi,T)      Gauss reverseLinear;
+
+//  div(phi,T)      Gauss upwind;
+//  div(phi,T)      Gauss linearUpwind Grad(T);
+
+//  div(phi,T)      Gauss cubic;
+//  div(phi,T)      Gauss limitedCubic 1;
+//  div(phi,T)      Gauss limitedCubic01 1;
+
+//  div(phi,T)      Gauss QUICK;
+
+//  div(phi,T)      Gauss Gamma 1;
+//  div(phi,T)      Gauss Gamma01 1;
+
+//  div(phi,T)      Gauss vanLeer;
+//  div(phi,T)      Gauss limitedVanLeer 0 1;
+
+//  div(phi,T)      Gauss OSPRE;
+
+//  div(phi,T)      Gauss vanAlbada;
+
+//  div(phi,T)      Gauss LUST Grad(T);
+//  div(phi,T)      Gauss LUST unboundedGrad(T);
+
+//  div(phi,T)      Gauss midPoint;
+
+//  div(phi,T)      Gauss SFCD;
+
+//  div(phi,T)      Gauss blended 1;
+
+    div(phi,T)      Gauss SuperBee;
+
+//  div(phi,T)      Gauss MUSCL;
+
+//  div(phi,T)      Gauss Minmod;
+
+//  div(phi,T)      Gauss UMIST;
+
+/*
+CoBlended
+Gamma
+Gamma01
+LUST
+MUSCL
+MUSCL01
+Minmod
+OSPRE
+QUICK
+SFCD
+SuperBee
+UMIST
+biLinearFit
+blended
+clippedLinear
+cubic
+cubicUpwindFit
+downwind
+filteredLinear
+filteredLinear2
+filteredLinear3
+fixedBlended
+harmonic
+limitWith
+limitedCubic
+limitedCubic01
+limitedGamma
+limitedLimitedCubic
+limitedLimitedLinear
+limitedLinear
+limitedLinear01
+limitedMUSCL
+limitedVanLeer
+limiterBlended
+linear
+linearFit
+linearPureUpwindFit
+linearUpwind
+localBlended
+localMax
+localMin
+midPoint
+outletStabilised
+pointLinear
+quadraticFit
+quadraticLinearFit
+quadraticLinearUpwindFit
+quadraticUpwindFit
+reverseLinear
+skewCorrected
+upwind
+vanAlbada
+vanLeer
+vanLeer01
+weighted
+*/
+
+}
+
+laplacianSchemes
+{
+    default         none;
+    // laplacian(DT,T) Gauss linear orthogonal;
+    laplacian(alpha,T) Gauss linear orthogonal;
+
+}
+
+/*
+corrected
+limited
+orthogonal
+uncorrected
+*/
+
+interpolationSchemes
+{
+    default         linear;
+}
+
+snGradSchemes
+{
+    default         orthogonal;
+}
+
+fluxRequired
+{
+    default         no;
+    T               ;
+}
+
+// ************************************************************************* //
+

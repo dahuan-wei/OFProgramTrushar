@@ -1,0 +1,4 @@
+cellSet solid new boxToCell    (-10     0  -1 )(10 10 1)
+cellSet fluid clear
+cellSet fluid add cellToCell solid
+cellSet fluid invert

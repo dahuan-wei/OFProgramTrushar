@@ -1,0 +1,34 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      setFieldsDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+expressions
+(
+ 
+   set1
+    {
+        field T;
+        keepPatches true;
+
+         // condition "pos().y < 0.6 && pos().y > 0.4 && pos().x < 0.6 && pos().x > 0.4";
+        //    condition "pos().y > 0.8 && pos().y < 1.2 && pos().x > 0.8 && pos().x < 1.2";
+        condition "pos().y > 0.5 && pos().y < 1.5 && pos().x > 0.5 && pos().x < 1.5";
+
+	       expression "1"; 
+
+    }
+    
+
+);

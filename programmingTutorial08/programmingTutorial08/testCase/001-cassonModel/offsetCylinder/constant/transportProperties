@@ -1,0 +1,44 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  3.0.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  cassonModel; //CrossPowerLaw;
+
+cassonModelCoeffs
+{
+    nuMin         nuMin [0 2 -1 0 0 0 0]  0.0001;
+    nuMax         nuMax [0 2 -1 0 0 0 0]  100;
+    m             m [0 2 -1 0 0 0 0]   0.00414;
+    tau0          tau0 [0 2 -2 0 0 0 0]   0.0038;    
+}
+
+CrossPowerLawCoeffs
+{
+    nu0         [0 2 -1 0 0 0 0]  0.01;
+    nuInf       [0 2 -1 0 0 0 0]  10;
+    m           [0 0 1 0 0 0 0]   0.4;
+    n           [0 0 0 0 0 0 0]   3;
+}
+
+BirdCarreauCoeffs
+{
+    nu0         [0 2 -1 0 0 0 0]  1e-06;
+    nuInf       [0 2 -1 0 0 0 0]  1e-06;
+    k           [0 0 1 0 0 0 0]   0;
+    n           [0 0 0 0 0 0 0]   1;
+}
+
+// ************************************************************************* //

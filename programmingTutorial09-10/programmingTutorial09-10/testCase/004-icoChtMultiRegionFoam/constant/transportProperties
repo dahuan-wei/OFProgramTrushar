@@ -1,0 +1,32 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.7.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  Newtonian;
+
+nu              nu [ 0 2 -1 0 0 0 0 ] 2e-05;
+
+// Laminar Prandtl number
+Pr              Pr [0 0 0 0 0 0 0] 0.699;
+
+// Turbulent Prandtl number
+Prt             Prt [0 0 0 0 0 0 0] 0.7;
+
+
+// pour le solide
+DT              DT [ 0 2 -1 0 0 0 0 ] 4e-07;
+
+// ************************************************************************* //

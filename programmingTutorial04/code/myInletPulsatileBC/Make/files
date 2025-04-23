@@ -1,0 +1,7 @@
+myInletPulsatileBCFvPatchVectorField.C 
+
+LIB = $(FOAM_USER_LIBBIN)/myInletPulsatileBC
+
+
+
+

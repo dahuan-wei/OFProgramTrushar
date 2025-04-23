@@ -1,0 +1,115 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  3.0.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      fvSchemes;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+ddtSchemes
+{
+    //default         backward;			//second order, implicit
+    default         Euler;			//first order, bounded, implicit
+    //default           CrankNicolson 0;  	//1 is full CN, Second order, bounded, implicit
+						//0 is equivalent to Euler
+}
+
+gradSchemes
+{
+        //default         Gauss linear;
+  	//default 	  leastSquares;
+  	//default 	  fourth;
+
+      	//default         cellMDLimited Gauss linear 0;
+	//default         cellMDLimited Gauss linear 0.777;
+	//default         cellMDLimited Gauss linear 0.5;
+  	//default         cellMDLimited Gauss linear 0.333;
+  	//default         cellMDLimited Gauss linear 0;
+	
+        //default         cellMDLimited Gauss linear 1.0;
+	//default         cellLimited Gauss linear   1.0;
+	  
+      	//default         faceMDLimited Gauss linear 1.0;
+	//default         faceLimited Gauss linear   1.0;
+	  
+  	//default 	  cellLimited Gauss linear 0.5;
+    	//default 	  cellLimited leastSquares 0.5;
+
+  	  grad(T)         cellLimited Gauss linear 1.0;
+  	//grad(T)         cellLimited leastSquares 0.333;
+}
+
+divSchemes
+{
+     default         none;
+
+  div(phi,T)      Gauss linear;			//Second order, unbounded
+//  div(phi,T)      Gauss upwind;			//First order, bounded 
+//    div(phi,T)      Gauss linearUpwind grad(T);		//First/second order, bounded 
+
+//  div(phi,T)      Gauss QUICK;			//First/second order, bounded 
+//  div(phi,T)      Gauss limitWith QUICK Minmod;
+//  div(phi,T)      Gauss limitWith QUICK SuperBee;
+//  div(phi,T)      Gauss limitWith QUICK vanAlbada;
+    
+//  div(phi,T)      Gauss MUSCL;			//MUSCL scheme
+//  div(phi,T)      Gauss limitedMUSCL -2 2;		//MUSCL scheme bounded between -2 and 2
+//  div(phi,T)      Gauss MUSCL01;			//MUSCL scheme strictly bounded between  0 and 1
+
+//  div(phi,T)      Gauss limitedLinear 1;		//TVD scheme	
+//  div(phi,T)      Gauss limitedLinear01 1;		//TVD scheme
+
+//  div(phi,T)      Gauss filteredLinear;		//Linear scheme with filtering for high-frequency ringing
+//  div(phi,T)      Gauss reverseLinear;
+
+//  div(phi,T)      Gauss cubic;
+//  div(phi,T)      Gauss limitWith cubic Minmod;
+//  div(phi,T)      Gauss limitedCubic 1;		//TVD scheme
+//  div(phi,T)      Gauss limitedCubic01 1;		//TVD scheme
+
+//  div(phi,T)      Gauss SFCD;			        //NVD scheme.  Self-filtered central differencing 
+
+//  div(phi,T)      Gauss Gamma 1;			//NVD scheme.  
+//  div(phi,T)      Gauss Gamma01 1;			//NVD scheme.  
+
+//  div(phi,T)      Gauss vanLeer;			//TVD scheme
+//  div(phi,T)      Gauss limitedVanLeer 0 1;		//TVD scheme
+
+//  div(phi,T)      Gauss OSPRE;			//TVD scheme
+
+//  div(phi,T)      Gauss vanAlbada;			//TVD scheme
+
+//  div(phi,T)      Gauss Minmod;			//TVD scheme
+
+//  div(phi,T)      Gauss SuperBee;			//TVD scheme
+
+//  div(phi,T)      Gauss UMIST;			//TVD scheme
+
+//  div(phi,T)      Gauss downwind;			//Totally useless scheme. Unconditionally unstable
+}
+
+laplacianSchemes
+{
+    default         none;
+    laplacian(DT,T) Gauss linear orthogonal;
+}
+
+interpolationSchemes
+{
+    default         linear;
+}
+
+snGradSchemes
+{
+    default         orthogonal;
+}
+
+// ************************************************************************* //

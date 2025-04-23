@@ -1,0 +1,7 @@
+myEpsilonBCFvPatchScalarField.C 
+
+LIB = $(FOAM_USER_LIBBIN)/myEpsilonBC
+
+
+
+

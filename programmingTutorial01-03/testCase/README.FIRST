@@ -1,0 +1,36 @@
+#Steps to run the case
+
+
+#To clean the directory, this is optional
+
+foamCleanTutorials
+
+foamCleanPolyMesh
+
+
+
+#To generate the mesh and check mesh quality
+
+blockMesh
+
+checkMesh
+
+
+
+#Initialize fields
+
+cp 0/T.org 0/T
+
+funkySetFields -time 0
+
+
+# To run in serial:
+
+myWaveFoam > myWaveFoam.log &
+
+
+#Visualization
+
+paraFoam
+
+

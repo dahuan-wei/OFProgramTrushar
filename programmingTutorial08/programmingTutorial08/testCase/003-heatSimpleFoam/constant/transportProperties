@@ -1,0 +1,37 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  temperatureDependentPowerLaw;
+
+nu              nu [ 0 2 -1 0 0 0 0 ] 1;
+
+
+
+temperatureDependentPowerLawCoeffs
+{
+    kzero         kzero [0 2 -1 0 0 0 0] 2800;
+    n             n [0 0 0 0 0 0 0] 0.64;
+    mk            mk [0 2 -1 -1 0 0 0] 0.5;
+    Tzero         Tzero [0 0 0 1 0 0 0] 300;
+    nuMin         nuMin [0 2 -1 0 0 0 0] .1;
+    nuMax         nuMax [0 2 -1 0 0 0 0] 10000000;
+   }
+
+DT       DT  [0 2 -1 0 0 0 0] 1e-8;
+
+
+// ************************************************************************* //

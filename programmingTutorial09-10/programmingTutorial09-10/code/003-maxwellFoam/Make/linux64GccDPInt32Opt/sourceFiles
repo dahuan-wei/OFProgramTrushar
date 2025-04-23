@@ -1,0 +1,2 @@
+SOURCE = \
+maxwellFoam.C 

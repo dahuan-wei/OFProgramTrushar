@@ -1,0 +1,3043 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-03dd22794e29
+Exec   : myScalarTransportPisoFoam
+Date   : Apr 23 2025
+Time   : 22:53:07
+Host   : "Valente"
+PID    : 26808
+I/O    : uncollated
+Case   : /home/huanix/OpenFOAM/huanix-10/run/OFProgramTrushar/programmingTutorial01-03/testCase/006-myScalarTransportPisoFoam/myScalarTransportPisoFoam
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field T
+
+Reading field U
+
+Reading physicalProperties
+
+Reading diffusivity DT
+
+Reading/calculating face flux field phi
+
+No fvModels present
+No fvConstraints present
+
+Calculating scalar transport
+
+Courant Number mean: 0.447925 max: 1.94738
+Time = 0.0001s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 1, Final residual = 4.62143e-07, No Iterations 7
+Time = 0.0002s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.152382, Final residual = 6.98687e-07, No Iterations 6
+Time = 0.0003s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0888755, Final residual = 7.74661e-07, No Iterations 6
+Time = 0.0004s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0617077, Final residual = 7.39686e-07, No Iterations 6
+Time = 0.0005s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0482257, Final residual = 7.86095e-07, No Iterations 6
+Time = 0.0006s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0401988, Final residual = 4.93002e-07, No Iterations 6
+Time = 0.0007s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0345011, Final residual = 9.46387e-07, No Iterations 6
+Time = 0.0008s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0301302, Final residual = 6.18782e-07, No Iterations 6
+Time = 0.0009s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0267083, Final residual = 9.45928e-07, No Iterations 5
+Time = 0.001s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0239586, Final residual = 4.28266e-07, No Iterations 6
+Time = 0.0011s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0216972, Final residual = 4.43313e-07, No Iterations 6
+Time = 0.0012s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0197989, Final residual = 4.59446e-07, No Iterations 6
+Time = 0.0013s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0181805, Final residual = 4.61359e-07, No Iterations 6
+Time = 0.0014s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0167827, Final residual = 4.51639e-07, No Iterations 6
+Time = 0.0015s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0155628, Final residual = 4.32916e-07, No Iterations 6
+Time = 0.0016s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0144891, Final residual = 4.07061e-07, No Iterations 6
+Time = 0.0017s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0135377, Final residual = 3.771e-07, No Iterations 6
+Time = 0.0018s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0126901, Final residual = 3.45216e-07, No Iterations 6
+Time = 0.0019s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0119314, Final residual = 9.40508e-07, No Iterations 5
+Time = 0.002s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0112497, Final residual = 8.62583e-07, No Iterations 5
+Time = 0.0021s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0106352, Final residual = 7.86717e-07, No Iterations 5
+Time = 0.0022s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0100797, Final residual = 7.13515e-07, No Iterations 5
+Time = 0.0023s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00957619, Final residual = 6.4306e-07, No Iterations 5
+Time = 0.0024s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00911873, Final residual = 5.74711e-07, No Iterations 5
+Time = 0.0025s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00870218, Final residual = 5.09609e-07, No Iterations 5
+Time = 0.0026s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00832202, Final residual = 8.8791e-07, No Iterations 5
+Time = 0.0027s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00797436, Final residual = 7.83271e-07, No Iterations 5
+Time = 0.0028s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00765571, Final residual = 6.90541e-07, No Iterations 5
+Time = 0.0029s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00736312, Final residual = 6.1078e-07, No Iterations 5
+Time = 0.003s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00709376, Final residual = 5.42872e-07, No Iterations 5
+Time = 0.0031s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0068454, Final residual = 4.85828e-07, No Iterations 5
+Time = 0.0032s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00661588, Final residual = 4.38129e-07, No Iterations 5
+Time = 0.0033s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00640334, Final residual = 3.98453e-07, No Iterations 5
+Time = 0.0034s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00620619, Final residual = 3.65445e-07, No Iterations 5
+Time = 0.0035s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0060229, Final residual = 3.37925e-07, No Iterations 5
+Time = 0.0036s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00585216, Final residual = 3.14732e-07, No Iterations 5
+Time = 0.0037s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00569284, Final residual = 2.94887e-07, No Iterations 5
+Time = 0.0038s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00554387, Final residual = 2.77642e-07, No Iterations 5
+Time = 0.0039s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00540438, Final residual = 2.62519e-07, No Iterations 5
+Time = 0.004s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00527351, Final residual = 9.79787e-07, No Iterations 4
+Time = 0.0041s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00515056, Final residual = 9.3242e-07, No Iterations 4
+Time = 0.0042s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00503484, Final residual = 8.85536e-07, No Iterations 4
+Time = 0.0043s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00492576, Final residual = 8.41767e-07, No Iterations 4
+Time = 0.0044s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0048228, Final residual = 8.01079e-07, No Iterations 4
+Time = 0.0045s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00472547, Final residual = 7.63129e-07, No Iterations 4
+Time = 0.0046s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00463334, Final residual = 7.27672e-07, No Iterations 4
+Time = 0.0047s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.004546, Final residual = 6.94469e-07, No Iterations 4
+Time = 0.0048s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0044631, Final residual = 6.63351e-07, No Iterations 4
+Time = 0.0049s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00438434, Final residual = 6.3415e-07, No Iterations 4
+Time = 0.005s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00430942, Final residual = 6.06773e-07, No Iterations 4
+Time = 0.0051s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00423808, Final residual = 5.81025e-07, No Iterations 4
+Time = 0.0052s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00417008, Final residual = 5.56838e-07, No Iterations 4
+Time = 0.0053s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00410519, Final residual = 5.34076e-07, No Iterations 4
+Time = 0.0054s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00404321, Final residual = 5.12637e-07, No Iterations 4
+Time = 0.0055s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00398396, Final residual = 4.92441e-07, No Iterations 4
+Time = 0.0056s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00392726, Final residual = 9.68472e-07, No Iterations 4
+Time = 0.0057s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00387298, Final residual = 9.32079e-07, No Iterations 4
+Time = 0.0058s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00382096, Final residual = 8.99216e-07, No Iterations 4
+Time = 0.0059s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00377106, Final residual = 8.68445e-07, No Iterations 4
+Time = 0.006s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00372318, Final residual = 8.39402e-07, No Iterations 4
+Time = 0.0061s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00367719, Final residual = 8.11961e-07, No Iterations 4
+Time = 0.0062s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00363299, Final residual = 7.86037e-07, No Iterations 4
+Time = 0.0063s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00359048, Final residual = 7.61487e-07, No Iterations 4
+Time = 0.0064s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00354957, Final residual = 7.3819e-07, No Iterations 4
+Time = 0.0065s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00351018, Final residual = 7.16079e-07, No Iterations 4
+Time = 0.0066s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00347224, Final residual = 6.95057e-07, No Iterations 4
+Time = 0.0067s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00343567, Final residual = 6.75066e-07, No Iterations 4
+Time = 0.0068s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0034004, Final residual = 6.56038e-07, No Iterations 4
+Time = 0.0069s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00336636, Final residual = 6.37917e-07, No Iterations 4
+Time = 0.007s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0033335, Final residual = 6.20646e-07, No Iterations 4
+Time = 0.0071s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00330176, Final residual = 6.04212e-07, No Iterations 4
+Time = 0.0072s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0032711, Final residual = 5.88588e-07, No Iterations 4
+Time = 0.0073s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00324147, Final residual = 5.7377e-07, No Iterations 4
+Time = 0.0074s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00321281, Final residual = 5.59852e-07, No Iterations 4
+Time = 0.0075s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00318509, Final residual = 5.46664e-07, No Iterations 4
+Time = 0.0076s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00315827, Final residual = 5.33997e-07, No Iterations 4
+Time = 0.0077s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0031323, Final residual = 5.21837e-07, No Iterations 4
+Time = 0.0078s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00310714, Final residual = 5.10134e-07, No Iterations 4
+Time = 0.0079s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00308276, Final residual = 4.9887e-07, No Iterations 4
+Time = 0.008s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00305915, Final residual = 4.8803e-07, No Iterations 4
+Time = 0.0081s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00303626, Final residual = 4.7758e-07, No Iterations 4
+Time = 0.0082s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00301408, Final residual = 4.67506e-07, No Iterations 4
+Time = 0.0083s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00299256, Final residual = 4.57791e-07, No Iterations 4
+Time = 0.0084s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00297167, Final residual = 4.48411e-07, No Iterations 4
+Time = 0.0085s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0029514, Final residual = 4.39356e-07, No Iterations 4
+Time = 0.0086s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00293174, Final residual = 4.3061e-07, No Iterations 4
+Time = 0.0087s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00291265, Final residual = 4.22164e-07, No Iterations 4
+Time = 0.0088s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00289413, Final residual = 4.13994e-07, No Iterations 4
+Time = 0.0089s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00287611, Final residual = 9.8536e-07, No Iterations 3
+Time = 0.009s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00285862, Final residual = 9.6916e-07, No Iterations 3
+Time = 0.0091s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00284164, Final residual = 9.50579e-07, No Iterations 3
+Time = 0.0092s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00282514, Final residual = 9.31945e-07, No Iterations 3
+Time = 0.0093s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00280909, Final residual = 9.13786e-07, No Iterations 3
+Time = 0.0094s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00279349, Final residual = 8.96312e-07, No Iterations 3
+Time = 0.0095s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00277833, Final residual = 8.79513e-07, No Iterations 3
+Time = 0.0096s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0027636, Final residual = 8.63373e-07, No Iterations 3
+Time = 0.0097s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00274925, Final residual = 8.47842e-07, No Iterations 3
+Time = 0.0098s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0027353, Final residual = 8.3299e-07, No Iterations 3
+Time = 0.0099s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00272174, Final residual = 8.18618e-07, No Iterations 3
+Time = 0.01s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00270855, Final residual = 8.04706e-07, No Iterations 3
+Time = 0.0101s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0026957, Final residual = 7.9125e-07, No Iterations 3
+Time = 0.0102s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00268321, Final residual = 7.78209e-07, No Iterations 3
+Time = 0.0103s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00267107, Final residual = 7.65548e-07, No Iterations 3
+Time = 0.0104s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00265923, Final residual = 7.5324e-07, No Iterations 3
+Time = 0.0105s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00264772, Final residual = 7.41283e-07, No Iterations 3
+Time = 0.0106s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00263653, Final residual = 7.29675e-07, No Iterations 3
+Time = 0.0107s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00262563, Final residual = 7.1839e-07, No Iterations 3
+Time = 0.0108s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002615, Final residual = 7.07424e-07, No Iterations 3
+Time = 0.0109s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00260469, Final residual = 6.96775e-07, No Iterations 3
+Time = 0.011s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00259464, Final residual = 6.86415e-07, No Iterations 3
+Time = 0.0111s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00258485, Final residual = 6.76348e-07, No Iterations 3
+Time = 0.0112s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00257534, Final residual = 6.66568e-07, No Iterations 3
+Time = 0.0113s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00256607, Final residual = 6.5706e-07, No Iterations 3
+Time = 0.0114s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00255704, Final residual = 6.47818e-07, No Iterations 3
+Time = 0.0115s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00254828, Final residual = 6.38855e-07, No Iterations 3
+Time = 0.0116s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00253973, Final residual = 6.30144e-07, No Iterations 3
+Time = 0.0117s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00253142, Final residual = 6.21687e-07, No Iterations 3
+Time = 0.0118s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00252334, Final residual = 6.13472e-07, No Iterations 3
+Time = 0.0119s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00251546, Final residual = 6.05491e-07, No Iterations 3
+Time = 0.012s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00250781, Final residual = 5.97741e-07, No Iterations 3
+Time = 0.0121s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00250037, Final residual = 5.90216e-07, No Iterations 3
+Time = 0.0122s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00249312, Final residual = 5.82915e-07, No Iterations 3
+Time = 0.0123s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00248608, Final residual = 5.75819e-07, No Iterations 3
+Time = 0.0124s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00247923, Final residual = 5.68914e-07, No Iterations 3
+Time = 0.0125s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00247258, Final residual = 5.62204e-07, No Iterations 3
+Time = 0.0126s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00246611, Final residual = 5.55677e-07, No Iterations 3
+Time = 0.0127s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00245981, Final residual = 5.49326e-07, No Iterations 3
+Time = 0.0128s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0024537, Final residual = 5.43153e-07, No Iterations 3
+Time = 0.0129s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00244776, Final residual = 5.37146e-07, No Iterations 3
+Time = 0.013s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002442, Final residual = 5.31305e-07, No Iterations 3
+Time = 0.0131s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00243639, Final residual = 5.25623e-07, No Iterations 3
+Time = 0.0132s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00243096, Final residual = 5.20097e-07, No Iterations 3
+Time = 0.0133s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00242568, Final residual = 5.1472e-07, No Iterations 3
+Time = 0.0134s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00242056, Final residual = 5.0949e-07, No Iterations 3
+Time = 0.0135s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0024156, Final residual = 5.04403e-07, No Iterations 3
+Time = 0.0136s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00241078, Final residual = 4.99453e-07, No Iterations 3
+Time = 0.0137s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00240612, Final residual = 4.94639e-07, No Iterations 3
+Time = 0.0138s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00240159, Final residual = 4.89955e-07, No Iterations 3
+Time = 0.0139s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239722, Final residual = 4.85399e-07, No Iterations 3
+Time = 0.014s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239298, Final residual = 4.80967e-07, No Iterations 3
+Time = 0.0141s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00238889, Final residual = 4.76654e-07, No Iterations 3
+Time = 0.0142s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00238492, Final residual = 4.72457e-07, No Iterations 3
+Time = 0.0143s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00238109, Final residual = 4.68376e-07, No Iterations 3
+Time = 0.0144s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237738, Final residual = 4.64403e-07, No Iterations 3
+Time = 0.0145s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237382, Final residual = 4.60539e-07, No Iterations 3
+Time = 0.0146s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237037, Final residual = 4.56777e-07, No Iterations 3
+Time = 0.0147s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236705, Final residual = 4.53119e-07, No Iterations 3
+Time = 0.0148s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236384, Final residual = 4.49559e-07, No Iterations 3
+Time = 0.0149s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236077, Final residual = 9.9547e-07, No Iterations 3
+Time = 0.015s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235781, Final residual = 9.84897e-07, No Iterations 3
+Time = 0.0151s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235497, Final residual = 9.77425e-07, No Iterations 3
+Time = 0.0152s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235224, Final residual = 9.70709e-07, No Iterations 3
+Time = 0.0153s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234963, Final residual = 9.64255e-07, No Iterations 3
+Time = 0.0154s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234713, Final residual = 9.57946e-07, No Iterations 3
+Time = 0.0155s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234474, Final residual = 9.5176e-07, No Iterations 3
+Time = 0.0156s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234245, Final residual = 9.45692e-07, No Iterations 3
+Time = 0.0157s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234028, Final residual = 9.39743e-07, No Iterations 3
+Time = 0.0158s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023382, Final residual = 9.33912e-07, No Iterations 3
+Time = 0.0159s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233623, Final residual = 9.28203e-07, No Iterations 3
+Time = 0.016s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233436, Final residual = 9.22615e-07, No Iterations 3
+Time = 0.0161s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023326, Final residual = 9.17148e-07, No Iterations 3
+Time = 0.0162s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233093, Final residual = 9.11796e-07, No Iterations 3
+Time = 0.0163s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232936, Final residual = 9.06563e-07, No Iterations 3
+Time = 0.0164s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232789, Final residual = 9.01448e-07, No Iterations 3
+Time = 0.0165s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232652, Final residual = 8.96449e-07, No Iterations 3
+Time = 0.0166s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232523, Final residual = 8.9156e-07, No Iterations 3
+Time = 0.0167s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232405, Final residual = 8.8678e-07, No Iterations 3
+Time = 0.0168s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232295, Final residual = 8.82108e-07, No Iterations 3
+Time = 0.0169s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232195, Final residual = 8.77541e-07, No Iterations 3
+Time = 0.017s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232104, Final residual = 8.73076e-07, No Iterations 3
+Time = 0.0171s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232022, Final residual = 8.68713e-07, No Iterations 3
+Time = 0.0172s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231948, Final residual = 8.64445e-07, No Iterations 3
+Time = 0.0173s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231884, Final residual = 8.60273e-07, No Iterations 3
+Time = 0.0174s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231828, Final residual = 8.56196e-07, No Iterations 3
+Time = 0.0175s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023178, Final residual = 8.52211e-07, No Iterations 3
+Time = 0.0176s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231741, Final residual = 8.48319e-07, No Iterations 3
+Time = 0.0177s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231711, Final residual = 8.44514e-07, No Iterations 3
+Time = 0.0178s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231689, Final residual = 8.40797e-07, No Iterations 3
+Time = 0.0179s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231676, Final residual = 8.37162e-07, No Iterations 3
+Time = 0.018s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023167, Final residual = 8.33605e-07, No Iterations 3
+Time = 0.0181s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231672, Final residual = 8.30133e-07, No Iterations 3
+Time = 0.0182s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231683, Final residual = 8.26743e-07, No Iterations 3
+Time = 0.0183s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231702, Final residual = 8.23434e-07, No Iterations 3
+Time = 0.0184s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231729, Final residual = 8.202e-07, No Iterations 3
+Time = 0.0185s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231763, Final residual = 8.1704e-07, No Iterations 3
+Time = 0.0186s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231806, Final residual = 8.13956e-07, No Iterations 3
+Time = 0.0187s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231856, Final residual = 8.10944e-07, No Iterations 3
+Time = 0.0188s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231914, Final residual = 8.08006e-07, No Iterations 3
+Time = 0.0189s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231979, Final residual = 8.05138e-07, No Iterations 3
+Time = 0.019s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232052, Final residual = 8.0234e-07, No Iterations 3
+Time = 0.0191s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232133, Final residual = 7.99611e-07, No Iterations 3
+Time = 0.0192s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232222, Final residual = 7.96951e-07, No Iterations 3
+Time = 0.0193s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232317, Final residual = 7.94357e-07, No Iterations 3
+Time = 0.0194s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023242, Final residual = 7.91829e-07, No Iterations 3
+Time = 0.0195s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232531, Final residual = 7.89364e-07, No Iterations 3
+Time = 0.0196s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232649, Final residual = 7.86959e-07, No Iterations 3
+Time = 0.0197s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232774, Final residual = 7.84618e-07, No Iterations 3
+Time = 0.0198s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232907, Final residual = 7.82336e-07, No Iterations 3
+Time = 0.0199s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233047, Final residual = 7.80117e-07, No Iterations 3
+Time = 0.02s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233194, Final residual = 7.77958e-07, No Iterations 3
+Time = 0.0201s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233348, Final residual = 7.75854e-07, No Iterations 3
+Time = 0.0202s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233509, Final residual = 7.73813e-07, No Iterations 3
+Time = 0.0203s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233678, Final residual = 7.71828e-07, No Iterations 3
+Time = 0.0204s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233853, Final residual = 7.69897e-07, No Iterations 3
+Time = 0.0205s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234036, Final residual = 7.68028e-07, No Iterations 3
+Time = 0.0206s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234226, Final residual = 7.66214e-07, No Iterations 3
+Time = 0.0207s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234423, Final residual = 7.64456e-07, No Iterations 3
+Time = 0.0208s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234627, Final residual = 7.62755e-07, No Iterations 3
+Time = 0.0209s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234838, Final residual = 7.61109e-07, No Iterations 3
+Time = 0.021s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235055, Final residual = 7.59519e-07, No Iterations 3
+Time = 0.0211s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023528, Final residual = 7.57986e-07, No Iterations 3
+Time = 0.0212s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235512, Final residual = 7.56507e-07, No Iterations 3
+Time = 0.0213s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235751, Final residual = 7.55086e-07, No Iterations 3
+Time = 0.0214s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235997, Final residual = 7.53721e-07, No Iterations 3
+Time = 0.0215s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236249, Final residual = 7.52411e-07, No Iterations 3
+Time = 0.0216s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236509, Final residual = 7.51158e-07, No Iterations 3
+Time = 0.0217s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236775, Final residual = 7.49964e-07, No Iterations 3
+Time = 0.0218s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237048, Final residual = 7.48825e-07, No Iterations 3
+Time = 0.0219s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237328, Final residual = 7.47744e-07, No Iterations 3
+Time = 0.022s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237616, Final residual = 7.46723e-07, No Iterations 3
+Time = 0.0221s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023791, Final residual = 7.4576e-07, No Iterations 3
+Time = 0.0222s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0023821, Final residual = 7.44856e-07, No Iterations 3
+Time = 0.0223s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00238518, Final residual = 7.44014e-07, No Iterations 3
+Time = 0.0224s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00238833, Final residual = 7.43234e-07, No Iterations 3
+Time = 0.0225s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239154, Final residual = 7.42513e-07, No Iterations 3
+Time = 0.0226s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239483, Final residual = 7.41857e-07, No Iterations 3
+Time = 0.0227s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239818, Final residual = 7.41265e-07, No Iterations 3
+Time = 0.0228s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0024016, Final residual = 7.40733e-07, No Iterations 3
+Time = 0.0229s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00240509, Final residual = 7.40269e-07, No Iterations 3
+Time = 0.023s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00240866, Final residual = 7.3987e-07, No Iterations 3
+Time = 0.0231s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00241228, Final residual = 7.39535e-07, No Iterations 3
+Time = 0.0232s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00241598, Final residual = 7.39267e-07, No Iterations 3
+Time = 0.0233s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00241975, Final residual = 7.39066e-07, No Iterations 3
+Time = 0.0234s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00242359, Final residual = 7.38932e-07, No Iterations 3
+Time = 0.0235s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0024275, Final residual = 7.38863e-07, No Iterations 3
+Time = 0.0236s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00243147, Final residual = 7.38864e-07, No Iterations 3
+Time = 0.0237s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00243553, Final residual = 7.38932e-07, No Iterations 3
+Time = 0.0238s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00243964, Final residual = 7.39063e-07, No Iterations 3
+Time = 0.0239s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00244383, Final residual = 7.39264e-07, No Iterations 3
+Time = 0.024s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00244809, Final residual = 7.3953e-07, No Iterations 3
+Time = 0.0241s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00245241, Final residual = 7.3986e-07, No Iterations 3
+Time = 0.0242s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00245681, Final residual = 7.40254e-07, No Iterations 3
+Time = 0.0243s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00246128, Final residual = 7.40711e-07, No Iterations 3
+Time = 0.0244s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00246582, Final residual = 7.4123e-07, No Iterations 3
+Time = 0.0245s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00247042, Final residual = 7.41805e-07, No Iterations 3
+Time = 0.0246s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0024751, Final residual = 7.42441e-07, No Iterations 3
+Time = 0.0247s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00247986, Final residual = 7.43132e-07, No Iterations 3
+Time = 0.0248s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00248468, Final residual = 7.43877e-07, No Iterations 3
+Time = 0.0249s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00248956, Final residual = 7.44671e-07, No Iterations 3
+Time = 0.025s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00249453, Final residual = 7.45516e-07, No Iterations 3
+Time = 0.0251s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00249957, Final residual = 7.46407e-07, No Iterations 3
+Time = 0.0252s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00250467, Final residual = 7.47339e-07, No Iterations 3
+Time = 0.0253s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00250984, Final residual = 7.48312e-07, No Iterations 3
+Time = 0.0254s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00251508, Final residual = 7.49326e-07, No Iterations 3
+Time = 0.0255s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0025204, Final residual = 7.50375e-07, No Iterations 3
+Time = 0.0256s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00252578, Final residual = 7.51451e-07, No Iterations 3
+Time = 0.0257s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00253123, Final residual = 7.52555e-07, No Iterations 3
+Time = 0.0258s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00253676, Final residual = 7.53686e-07, No Iterations 3
+Time = 0.0259s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00254236, Final residual = 7.54837e-07, No Iterations 3
+Time = 0.026s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00254802, Final residual = 7.56004e-07, No Iterations 3
+Time = 0.0261s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00255375, Final residual = 7.57192e-07, No Iterations 3
+Time = 0.0262s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00255955, Final residual = 7.58394e-07, No Iterations 3
+Time = 0.0263s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00256543, Final residual = 7.59604e-07, No Iterations 3
+Time = 0.0264s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00257136, Final residual = 7.60815e-07, No Iterations 3
+Time = 0.0265s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00257736, Final residual = 7.6203e-07, No Iterations 3
+Time = 0.0266s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00258343, Final residual = 7.63245e-07, No Iterations 3
+Time = 0.0267s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00258957, Final residual = 7.64456e-07, No Iterations 3
+Time = 0.0268s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00259576, Final residual = 7.65656e-07, No Iterations 3
+Time = 0.0269s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00260202, Final residual = 7.66847e-07, No Iterations 3
+Time = 0.027s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00260835, Final residual = 7.68028e-07, No Iterations 3
+Time = 0.0271s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00261474, Final residual = 7.69197e-07, No Iterations 3
+Time = 0.0272s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00262118, Final residual = 7.70348e-07, No Iterations 3
+Time = 0.0273s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00262769, Final residual = 7.71486e-07, No Iterations 3
+Time = 0.0274s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00263426, Final residual = 7.7261e-07, No Iterations 3
+Time = 0.0275s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00264089, Final residual = 7.73714e-07, No Iterations 3
+Time = 0.0276s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00264756, Final residual = 7.74793e-07, No Iterations 3
+Time = 0.0277s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00265428, Final residual = 7.75851e-07, No Iterations 3
+Time = 0.0278s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00266106, Final residual = 7.7689e-07, No Iterations 3
+Time = 0.0279s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0026679, Final residual = 7.77909e-07, No Iterations 3
+Time = 0.028s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00267478, Final residual = 7.78901e-07, No Iterations 3
+Time = 0.0281s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00268169, Final residual = 7.79872e-07, No Iterations 3
+Time = 0.0282s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00268866, Final residual = 7.80823e-07, No Iterations 3
+Time = 0.0283s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00269568, Final residual = 7.81756e-07, No Iterations 3
+Time = 0.0284s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00270273, Final residual = 7.82665e-07, No Iterations 3
+Time = 0.0285s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00270981, Final residual = 7.83545e-07, No Iterations 3
+Time = 0.0286s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00271692, Final residual = 7.84406e-07, No Iterations 3
+Time = 0.0287s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00272409, Final residual = 7.85252e-07, No Iterations 3
+Time = 0.0288s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00273128, Final residual = 7.86078e-07, No Iterations 3
+Time = 0.0289s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00273849, Final residual = 7.86878e-07, No Iterations 3
+Time = 0.029s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00274572, Final residual = 7.87658e-07, No Iterations 3
+Time = 0.0291s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00275298, Final residual = 7.88423e-07, No Iterations 3
+Time = 0.0292s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00276025, Final residual = 7.8917e-07, No Iterations 3
+Time = 0.0293s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00276753, Final residual = 7.89895e-07, No Iterations 3
+Time = 0.0294s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00277479, Final residual = 7.90598e-07, No Iterations 3
+Time = 0.0295s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00278207, Final residual = 7.91289e-07, No Iterations 3
+Time = 0.0296s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00278937, Final residual = 7.91977e-07, No Iterations 3
+Time = 0.0297s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00279668, Final residual = 7.92656e-07, No Iterations 3
+Time = 0.0298s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00280396, Final residual = 7.93322e-07, No Iterations 3
+Time = 0.0299s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00281122, Final residual = 7.93971e-07, No Iterations 3
+Time = 0.03s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00281847, Final residual = 7.94611e-07, No Iterations 3
+Time = 0.0301s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0028257, Final residual = 7.95246e-07, No Iterations 3
+Time = 0.0302s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00283291, Final residual = 7.95875e-07, No Iterations 3
+Time = 0.0303s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00284008, Final residual = 7.96491e-07, No Iterations 3
+Time = 0.0304s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00284719, Final residual = 7.97093e-07, No Iterations 3
+Time = 0.0305s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00285427, Final residual = 7.97686e-07, No Iterations 3
+Time = 0.0306s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0028613, Final residual = 7.98278e-07, No Iterations 3
+Time = 0.0307s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00286828, Final residual = 7.98873e-07, No Iterations 3
+Time = 0.0308s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0028752, Final residual = 7.99462e-07, No Iterations 3
+Time = 0.0309s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00288203, Final residual = 8.00042e-07, No Iterations 3
+Time = 0.031s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00288878, Final residual = 8.0062e-07, No Iterations 3
+Time = 0.0311s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00289546, Final residual = 8.012e-07, No Iterations 3
+Time = 0.0312s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00290207, Final residual = 8.01785e-07, No Iterations 3
+Time = 0.0313s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00290859, Final residual = 8.02376e-07, No Iterations 3
+Time = 0.0314s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002915, Final residual = 8.02964e-07, No Iterations 3
+Time = 0.0315s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00292128, Final residual = 8.03543e-07, No Iterations 3
+Time = 0.0316s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00292746, Final residual = 8.04126e-07, No Iterations 3
+Time = 0.0317s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00293354, Final residual = 8.04713e-07, No Iterations 3
+Time = 0.0318s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0029395, Final residual = 8.05329e-07, No Iterations 3
+Time = 0.0319s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00294533, Final residual = 8.05957e-07, No Iterations 3
+Time = 0.032s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002951, Final residual = 8.06626e-07, No Iterations 3
+Time = 0.0321s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00295652, Final residual = 8.0733e-07, No Iterations 3
+Time = 0.0322s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0029619, Final residual = 8.08062e-07, No Iterations 3
+Time = 0.0323s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00296713, Final residual = 8.08804e-07, No Iterations 3
+Time = 0.0324s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00297221, Final residual = 8.09557e-07, No Iterations 3
+Time = 0.0325s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00297712, Final residual = 8.1032e-07, No Iterations 3
+Time = 0.0326s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00298183, Final residual = 8.11089e-07, No Iterations 3
+Time = 0.0327s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00298636, Final residual = 8.11862e-07, No Iterations 3
+Time = 0.0328s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00299071, Final residual = 8.12649e-07, No Iterations 3
+Time = 0.0329s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00299487, Final residual = 8.13454e-07, No Iterations 3
+Time = 0.033s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00299884, Final residual = 8.14268e-07, No Iterations 3
+Time = 0.0331s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0030026, Final residual = 8.15091e-07, No Iterations 3
+Time = 0.0332s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00300614, Final residual = 8.15922e-07, No Iterations 3
+Time = 0.0333s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00300947, Final residual = 8.16773e-07, No Iterations 3
+Time = 0.0334s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00301257, Final residual = 8.17636e-07, No Iterations 3
+Time = 0.0335s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00301546, Final residual = 8.18512e-07, No Iterations 3
+Time = 0.0336s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00301811, Final residual = 8.19395e-07, No Iterations 3
+Time = 0.0337s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302052, Final residual = 8.20286e-07, No Iterations 3
+Time = 0.0338s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302271, Final residual = 8.21186e-07, No Iterations 3
+Time = 0.0339s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302465, Final residual = 8.22095e-07, No Iterations 3
+Time = 0.034s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302634, Final residual = 8.23014e-07, No Iterations 3
+Time = 0.0341s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302778, Final residual = 8.2394e-07, No Iterations 3
+Time = 0.0342s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302896, Final residual = 8.24879e-07, No Iterations 3
+Time = 0.0343s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302988, Final residual = 8.25827e-07, No Iterations 3
+Time = 0.0344s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00303054, Final residual = 8.26796e-07, No Iterations 3
+Time = 0.0345s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00303096, Final residual = 8.27783e-07, No Iterations 3
+Time = 0.0346s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00303112, Final residual = 8.28782e-07, No Iterations 3
+Time = 0.0347s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00303101, Final residual = 8.29793e-07, No Iterations 3
+Time = 0.0348s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00303062, Final residual = 8.30812e-07, No Iterations 3
+Time = 0.0349s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302995, Final residual = 8.31859e-07, No Iterations 3
+Time = 0.035s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302901, Final residual = 8.32924e-07, No Iterations 3
+Time = 0.0351s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0030278, Final residual = 8.34006e-07, No Iterations 3
+Time = 0.0352s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302633, Final residual = 8.35114e-07, No Iterations 3
+Time = 0.0353s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302462, Final residual = 8.36245e-07, No Iterations 3
+Time = 0.0354s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302264, Final residual = 8.37398e-07, No Iterations 3
+Time = 0.0355s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00302036, Final residual = 8.38565e-07, No Iterations 3
+Time = 0.0356s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0030178, Final residual = 8.3974e-07, No Iterations 3
+Time = 0.0357s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00301496, Final residual = 8.40931e-07, No Iterations 3
+Time = 0.0358s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00301185, Final residual = 8.42136e-07, No Iterations 3
+Time = 0.0359s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00300849, Final residual = 8.43357e-07, No Iterations 3
+Time = 0.036s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0030049, Final residual = 8.44595e-07, No Iterations 3
+Time = 0.0361s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00300105, Final residual = 8.45848e-07, No Iterations 3
+Time = 0.0362s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00299695, Final residual = 8.47115e-07, No Iterations 3
+Time = 0.0363s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00299256, Final residual = 8.48386e-07, No Iterations 3
+Time = 0.0364s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0029879, Final residual = 8.49658e-07, No Iterations 3
+Time = 0.0365s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00298298, Final residual = 8.50933e-07, No Iterations 3
+Time = 0.0366s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00297782, Final residual = 8.52222e-07, No Iterations 3
+Time = 0.0367s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00297244, Final residual = 8.53528e-07, No Iterations 3
+Time = 0.0368s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00296684, Final residual = 8.54847e-07, No Iterations 3
+Time = 0.0369s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00296103, Final residual = 8.56179e-07, No Iterations 3
+Time = 0.037s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00295498, Final residual = 8.57514e-07, No Iterations 3
+Time = 0.0371s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0029487, Final residual = 8.58853e-07, No Iterations 3
+Time = 0.0372s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00294216, Final residual = 8.60191e-07, No Iterations 3
+Time = 0.0373s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00293539, Final residual = 8.61527e-07, No Iterations 3
+Time = 0.0374s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00292842, Final residual = 8.62868e-07, No Iterations 3
+Time = 0.0375s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00292127, Final residual = 8.64219e-07, No Iterations 3
+Time = 0.0376s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00291393, Final residual = 8.65578e-07, No Iterations 3
+Time = 0.0377s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00290643, Final residual = 8.66946e-07, No Iterations 3
+Time = 0.0378s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00289876, Final residual = 8.6832e-07, No Iterations 3
+Time = 0.0379s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0028909, Final residual = 8.69695e-07, No Iterations 3
+Time = 0.038s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00288284, Final residual = 8.71063e-07, No Iterations 3
+Time = 0.0381s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00287459, Final residual = 8.72422e-07, No Iterations 3
+Time = 0.0382s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00286616, Final residual = 8.7378e-07, No Iterations 3
+Time = 0.0383s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00285761, Final residual = 8.75143e-07, No Iterations 3
+Time = 0.0384s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00284892, Final residual = 8.76512e-07, No Iterations 3
+Time = 0.0385s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00284011, Final residual = 8.77886e-07, No Iterations 3
+Time = 0.0386s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00283118, Final residual = 8.79266e-07, No Iterations 3
+Time = 0.0387s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00282215, Final residual = 8.8065e-07, No Iterations 3
+Time = 0.0388s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00281301, Final residual = 8.82037e-07, No Iterations 3
+Time = 0.0389s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00280374, Final residual = 8.83416e-07, No Iterations 3
+Time = 0.039s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00279433, Final residual = 8.84783e-07, No Iterations 3
+Time = 0.0391s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0027848, Final residual = 8.86145e-07, No Iterations 3
+Time = 0.0392s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00277519, Final residual = 8.8751e-07, No Iterations 3
+Time = 0.0393s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00276552, Final residual = 8.88877e-07, No Iterations 3
+Time = 0.0394s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00275579, Final residual = 8.90245e-07, No Iterations 3
+Time = 0.0395s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002746, Final residual = 8.91612e-07, No Iterations 3
+Time = 0.0396s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00273617, Final residual = 8.92979e-07, No Iterations 3
+Time = 0.0397s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00272629, Final residual = 8.94344e-07, No Iterations 3
+Time = 0.0398s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00271638, Final residual = 8.95708e-07, No Iterations 3
+Time = 0.0399s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0027064, Final residual = 8.97056e-07, No Iterations 3
+Time = 0.04s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00269637, Final residual = 8.9839e-07, No Iterations 3
+Time = 0.0401s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00268628, Final residual = 8.99709e-07, No Iterations 3
+Time = 0.0402s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00267618, Final residual = 9.01022e-07, No Iterations 3
+Time = 0.0403s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00266607, Final residual = 9.02335e-07, No Iterations 3
+Time = 0.0404s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00265597, Final residual = 9.03644e-07, No Iterations 3
+Time = 0.0405s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00264588, Final residual = 9.0495e-07, No Iterations 3
+Time = 0.0406s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00263579, Final residual = 9.06248e-07, No Iterations 3
+Time = 0.0407s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00262573, Final residual = 9.07541e-07, No Iterations 3
+Time = 0.0408s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00261569, Final residual = 9.08827e-07, No Iterations 3
+Time = 0.0409s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00260568, Final residual = 9.10106e-07, No Iterations 3
+Time = 0.041s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00259567, Final residual = 9.11367e-07, No Iterations 3
+Time = 0.0411s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00258568, Final residual = 9.12612e-07, No Iterations 3
+Time = 0.0412s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0025757, Final residual = 9.1384e-07, No Iterations 3
+Time = 0.0413s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00256577, Final residual = 9.15059e-07, No Iterations 3
+Time = 0.0414s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00255589, Final residual = 9.16266e-07, No Iterations 3
+Time = 0.0415s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00254606, Final residual = 9.17464e-07, No Iterations 3
+Time = 0.0416s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0025363, Final residual = 9.18652e-07, No Iterations 3
+Time = 0.0417s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00252659, Final residual = 9.1983e-07, No Iterations 3
+Time = 0.0418s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00251696, Final residual = 9.21e-07, No Iterations 3
+Time = 0.0419s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0025074, Final residual = 9.22159e-07, No Iterations 3
+Time = 0.042s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00249792, Final residual = 9.2331e-07, No Iterations 3
+Time = 0.0421s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00248851, Final residual = 9.24451e-07, No Iterations 3
+Time = 0.0422s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00247916, Final residual = 9.25573e-07, No Iterations 3
+Time = 0.0423s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00246988, Final residual = 9.26677e-07, No Iterations 3
+Time = 0.0424s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00246067, Final residual = 9.27767e-07, No Iterations 3
+Time = 0.0425s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00245155, Final residual = 9.28846e-07, No Iterations 3
+Time = 0.0426s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00244251, Final residual = 9.29914e-07, No Iterations 3
+Time = 0.0427s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00243357, Final residual = 9.3097e-07, No Iterations 3
+Time = 0.0428s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00242472, Final residual = 9.32016e-07, No Iterations 3
+Time = 0.0429s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00241597, Final residual = 9.33052e-07, No Iterations 3
+Time = 0.043s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00240732, Final residual = 9.34078e-07, No Iterations 3
+Time = 0.0431s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239877, Final residual = 9.35093e-07, No Iterations 3
+Time = 0.0432s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00239032, Final residual = 9.36098e-07, No Iterations 3
+Time = 0.0433s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00238198, Final residual = 9.37093e-07, No Iterations 3
+Time = 0.0434s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00237374, Final residual = 9.38079e-07, No Iterations 3
+Time = 0.0435s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00236561, Final residual = 9.39055e-07, No Iterations 3
+Time = 0.0436s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00235757, Final residual = 9.40017e-07, No Iterations 3
+Time = 0.0437s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234962, Final residual = 9.40964e-07, No Iterations 3
+Time = 0.0438s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00234178, Final residual = 9.41899e-07, No Iterations 3
+Time = 0.0439s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00233404, Final residual = 9.42824e-07, No Iterations 3
+Time = 0.044s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00232641, Final residual = 9.43738e-07, No Iterations 3
+Time = 0.0441s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231889, Final residual = 9.44643e-07, No Iterations 3
+Time = 0.0442s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00231148, Final residual = 9.45538e-07, No Iterations 3
+Time = 0.0443s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00230419, Final residual = 9.46424e-07, No Iterations 3
+Time = 0.0444s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002297, Final residual = 9.47301e-07, No Iterations 3
+Time = 0.0445s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00228993, Final residual = 9.48169e-07, No Iterations 3
+Time = 0.0446s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00228297, Final residual = 9.49027e-07, No Iterations 3
+Time = 0.0447s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00227611, Final residual = 9.49875e-07, No Iterations 3
+Time = 0.0448s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00226937, Final residual = 9.50714e-07, No Iterations 3
+Time = 0.0449s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00226274, Final residual = 9.51543e-07, No Iterations 3
+Time = 0.045s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00225621, Final residual = 9.52364e-07, No Iterations 3
+Time = 0.0451s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00224979, Final residual = 9.53173e-07, No Iterations 3
+Time = 0.0452s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00224347, Final residual = 9.5397e-07, No Iterations 3
+Time = 0.0453s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00223724, Final residual = 9.54755e-07, No Iterations 3
+Time = 0.0454s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00223112, Final residual = 9.55529e-07, No Iterations 3
+Time = 0.0455s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00222511, Final residual = 9.56292e-07, No Iterations 3
+Time = 0.0456s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00221919, Final residual = 9.57043e-07, No Iterations 3
+Time = 0.0457s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00221337, Final residual = 9.57786e-07, No Iterations 3
+Time = 0.0458s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00220766, Final residual = 9.58518e-07, No Iterations 3
+Time = 0.0459s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00220205, Final residual = 9.59242e-07, No Iterations 3
+Time = 0.046s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00219653, Final residual = 9.59958e-07, No Iterations 3
+Time = 0.0461s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00219112, Final residual = 9.60666e-07, No Iterations 3
+Time = 0.0462s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00218581, Final residual = 9.61365e-07, No Iterations 3
+Time = 0.0463s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00218059, Final residual = 9.62056e-07, No Iterations 3
+Time = 0.0464s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00217547, Final residual = 9.62741e-07, No Iterations 3
+Time = 0.0465s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00217044, Final residual = 9.63421e-07, No Iterations 3
+Time = 0.0466s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0021655, Final residual = 9.64091e-07, No Iterations 3
+Time = 0.0467s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00216066, Final residual = 9.64754e-07, No Iterations 3
+Time = 0.0468s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0021559, Final residual = 9.65412e-07, No Iterations 3
+Time = 0.0469s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00215124, Final residual = 9.66063e-07, No Iterations 3
+Time = 0.047s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00214666, Final residual = 9.66706e-07, No Iterations 3
+Time = 0.0471s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00214217, Final residual = 9.67343e-07, No Iterations 3
+Time = 0.0472s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00213776, Final residual = 9.67974e-07, No Iterations 3
+Time = 0.0473s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00213343, Final residual = 9.68596e-07, No Iterations 3
+Time = 0.0474s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00212918, Final residual = 9.69212e-07, No Iterations 3
+Time = 0.0475s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.002125, Final residual = 9.69821e-07, No Iterations 3
+Time = 0.0476s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0021209, Final residual = 9.70424e-07, No Iterations 3
+Time = 0.0477s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00211688, Final residual = 9.7102e-07, No Iterations 3
+Time = 0.0478s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00211293, Final residual = 9.71613e-07, No Iterations 3
+Time = 0.0479s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00210906, Final residual = 9.72201e-07, No Iterations 3
+Time = 0.048s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00210526, Final residual = 9.72783e-07, No Iterations 3
+Time = 0.0481s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00210153, Final residual = 9.73358e-07, No Iterations 3
+Time = 0.0482s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00209786, Final residual = 9.73929e-07, No Iterations 3
+Time = 0.0483s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00209427, Final residual = 9.74495e-07, No Iterations 3
+Time = 0.0484s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00209074, Final residual = 9.75056e-07, No Iterations 3
+Time = 0.0485s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00208728, Final residual = 9.75617e-07, No Iterations 3
+Time = 0.0486s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00208389, Final residual = 9.76174e-07, No Iterations 3
+Time = 0.0487s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00208055, Final residual = 9.76729e-07, No Iterations 3
+Time = 0.0488s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00207728, Final residual = 9.7728e-07, No Iterations 3
+Time = 0.0489s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00207407, Final residual = 9.77828e-07, No Iterations 3
+Time = 0.049s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00207092, Final residual = 9.78373e-07, No Iterations 3
+Time = 0.0491s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00206783, Final residual = 9.78917e-07, No Iterations 3
+Time = 0.0492s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0020648, Final residual = 9.79458e-07, No Iterations 3
+Time = 0.0493s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00206182, Final residual = 9.79996e-07, No Iterations 3
+Time = 0.0494s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00205889, Final residual = 9.80533e-07, No Iterations 3
+Time = 0.0495s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00205602, Final residual = 9.81069e-07, No Iterations 3
+Time = 0.0496s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0020532, Final residual = 9.81602e-07, No Iterations 3
+Time = 0.0497s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00205043, Final residual = 9.82135e-07, No Iterations 3
+Time = 0.0498s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00204771, Final residual = 9.82667e-07, No Iterations 3
+Time = 0.0499s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00204504, Final residual = 9.832e-07, No Iterations 3
+Time = 0.05s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00204241, Final residual = 9.83731e-07, No Iterations 3
+Time = 0.0501s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00203983, Final residual = 9.8426e-07, No Iterations 3
+Time = 0.0502s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0020373, Final residual = 9.84789e-07, No Iterations 3
+Time = 0.0503s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00203481, Final residual = 9.85318e-07, No Iterations 3
+Time = 0.0504s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00203236, Final residual = 9.85846e-07, No Iterations 3
+Time = 0.0505s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00202995, Final residual = 9.86372e-07, No Iterations 3
+Time = 0.0506s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00202759, Final residual = 9.86895e-07, No Iterations 3
+Time = 0.0507s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00202526, Final residual = 9.87419e-07, No Iterations 3
+Time = 0.0508s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00202297, Final residual = 9.87943e-07, No Iterations 3
+Time = 0.0509s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00202072, Final residual = 9.88466e-07, No Iterations 3
+Time = 0.051s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0020185, Final residual = 9.88988e-07, No Iterations 3
+Time = 0.0511s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00201633, Final residual = 9.8951e-07, No Iterations 3
+Time = 0.0512s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00201418, Final residual = 9.90032e-07, No Iterations 3
+Time = 0.0513s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00201207, Final residual = 9.90555e-07, No Iterations 3
+Time = 0.0514s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00201, Final residual = 9.91079e-07, No Iterations 3
+Time = 0.0515s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00200796, Final residual = 9.91603e-07, No Iterations 3
+Time = 0.0516s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00200595, Final residual = 9.92126e-07, No Iterations 3
+Time = 0.0517s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00200397, Final residual = 9.92649e-07, No Iterations 3
+Time = 0.0518s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00200202, Final residual = 9.93171e-07, No Iterations 3
+Time = 0.0519s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00200011, Final residual = 9.93694e-07, No Iterations 3
+Time = 0.052s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00199822, Final residual = 9.94217e-07, No Iterations 3
+Time = 0.0521s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00199636, Final residual = 9.9474e-07, No Iterations 3
+Time = 0.0522s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00199452, Final residual = 9.95264e-07, No Iterations 3
+Time = 0.0523s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00199271, Final residual = 9.95788e-07, No Iterations 3
+Time = 0.0524s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00199093, Final residual = 9.96312e-07, No Iterations 3
+Time = 0.0525s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00198918, Final residual = 9.96837e-07, No Iterations 3
+Time = 0.0526s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00198745, Final residual = 9.97362e-07, No Iterations 3
+Time = 0.0527s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00198574, Final residual = 9.97887e-07, No Iterations 3
+Time = 0.0528s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00198406, Final residual = 9.98412e-07, No Iterations 3
+Time = 0.0529s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019824, Final residual = 9.98937e-07, No Iterations 3
+Time = 0.053s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00198076, Final residual = 9.99463e-07, No Iterations 3
+Time = 0.0531s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00197915, Final residual = 9.99988e-07, No Iterations 3
+Time = 0.0532s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00197756, Final residual = 4.51713e-07, No Iterations 3
+Time = 0.0533s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00197599, Final residual = 4.53369e-07, No Iterations 3
+Time = 0.0534s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00197444, Final residual = 4.53757e-07, No Iterations 3
+Time = 0.0535s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00197291, Final residual = 4.5383e-07, No Iterations 3
+Time = 0.0536s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019714, Final residual = 4.53835e-07, No Iterations 3
+Time = 0.0537s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196991, Final residual = 4.53837e-07, No Iterations 3
+Time = 0.0538s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196844, Final residual = 4.53852e-07, No Iterations 3
+Time = 0.0539s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196698, Final residual = 4.53883e-07, No Iterations 3
+Time = 0.054s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196555, Final residual = 4.53929e-07, No Iterations 3
+Time = 0.0541s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196413, Final residual = 4.53988e-07, No Iterations 3
+Time = 0.0542s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196273, Final residual = 4.54059e-07, No Iterations 3
+Time = 0.0543s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00196134, Final residual = 4.54141e-07, No Iterations 3
+Time = 0.0544s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195998, Final residual = 4.54233e-07, No Iterations 3
+Time = 0.0545s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195862, Final residual = 4.54333e-07, No Iterations 3
+Time = 0.0546s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195729, Final residual = 4.54441e-07, No Iterations 3
+Time = 0.0547s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195596, Final residual = 4.54556e-07, No Iterations 3
+Time = 0.0548s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195466, Final residual = 4.54677e-07, No Iterations 3
+Time = 0.0549s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195336, Final residual = 4.54805e-07, No Iterations 3
+Time = 0.055s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195208, Final residual = 4.54937e-07, No Iterations 3
+Time = 0.0551s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00195082, Final residual = 4.55074e-07, No Iterations 3
+Time = 0.0552s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194957, Final residual = 4.55216e-07, No Iterations 3
+Time = 0.0553s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194833, Final residual = 4.55362e-07, No Iterations 3
+Time = 0.0554s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019471, Final residual = 4.55512e-07, No Iterations 3
+Time = 0.0555s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194589, Final residual = 4.55666e-07, No Iterations 3
+Time = 0.0556s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194469, Final residual = 4.55823e-07, No Iterations 3
+Time = 0.0557s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019435, Final residual = 4.55983e-07, No Iterations 3
+Time = 0.0558s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194232, Final residual = 4.56146e-07, No Iterations 3
+Time = 0.0559s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194116, Final residual = 4.56311e-07, No Iterations 3
+Time = 0.056s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00194, Final residual = 4.5648e-07, No Iterations 3
+Time = 0.0561s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00193886, Final residual = 4.5665e-07, No Iterations 3
+Time = 0.0562s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00193773, Final residual = 4.56822e-07, No Iterations 3
+Time = 0.0563s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00193661, Final residual = 4.56997e-07, No Iterations 3
+Time = 0.0564s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019355, Final residual = 4.57173e-07, No Iterations 3
+Time = 0.0565s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019344, Final residual = 4.57351e-07, No Iterations 3
+Time = 0.0566s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0019333, Final residual = 4.57531e-07, No Iterations 3
+Time = 0.0567s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00193222, Final residual = 4.57712e-07, No Iterations 3
+Time = 0.0568s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00193115, Final residual = 4.57894e-07, No Iterations 3
+Time = 0.0569s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00193009, Final residual = 4.58078e-07, No Iterations 3
+Time = 0.057s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192904, Final residual = 4.58263e-07, No Iterations 3
+Time = 0.0571s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.001928, Final residual = 4.5845e-07, No Iterations 3
+Time = 0.0572s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192696, Final residual = 4.58637e-07, No Iterations 3
+Time = 0.0573s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192594, Final residual = 4.58825e-07, No Iterations 3
+Time = 0.0574s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192492, Final residual = 4.59014e-07, No Iterations 3
+Time = 0.0575s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192391, Final residual = 4.59204e-07, No Iterations 3
+Time = 0.0576s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192291, Final residual = 4.59395e-07, No Iterations 3
+Time = 0.0577s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192192, Final residual = 4.59586e-07, No Iterations 3
+Time = 0.0578s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00192093, Final residual = 4.59778e-07, No Iterations 3
+Time = 0.0579s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191996, Final residual = 4.5997e-07, No Iterations 3
+Time = 0.058s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191899, Final residual = 4.60163e-07, No Iterations 3
+Time = 0.0581s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191802, Final residual = 4.60356e-07, No Iterations 3
+Time = 0.0582s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191707, Final residual = 4.6055e-07, No Iterations 3
+Time = 0.0583s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191612, Final residual = 4.60744e-07, No Iterations 3
+Time = 0.0584s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191518, Final residual = 4.60938e-07, No Iterations 3
+Time = 0.0585s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191424, Final residual = 4.61133e-07, No Iterations 3
+Time = 0.0586s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191332, Final residual = 4.61328e-07, No Iterations 3
+Time = 0.0587s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191239, Final residual = 4.61523e-07, No Iterations 3
+Time = 0.0588s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191148, Final residual = 4.61718e-07, No Iterations 3
+Time = 0.0589s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00191057, Final residual = 4.61913e-07, No Iterations 3
+Time = 0.059s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190967, Final residual = 4.62109e-07, No Iterations 3
+Time = 0.0591s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190877, Final residual = 4.62304e-07, No Iterations 3
+Time = 0.0592s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190788, Final residual = 4.625e-07, No Iterations 3
+Time = 0.0593s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.001907, Final residual = 4.62696e-07, No Iterations 3
+Time = 0.0594s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190612, Final residual = 4.62891e-07, No Iterations 3
+Time = 0.0595s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190525, Final residual = 4.63087e-07, No Iterations 3
+Time = 0.0596s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190438, Final residual = 4.63282e-07, No Iterations 3
+Time = 0.0597s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190352, Final residual = 4.63477e-07, No Iterations 3
+Time = 0.0598s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190266, Final residual = 4.63672e-07, No Iterations 3
+Time = 0.0599s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190181, Final residual = 4.63867e-07, No Iterations 3
+Time = 0.06s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190096, Final residual = 4.64062e-07, No Iterations 3
+Time = 0.0601s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00190012, Final residual = 4.64257e-07, No Iterations 3
+Time = 0.0602s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189928, Final residual = 4.64452e-07, No Iterations 3
+Time = 0.0603s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189845, Final residual = 4.64646e-07, No Iterations 3
+Time = 0.0604s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189762, Final residual = 4.6484e-07, No Iterations 3
+Time = 0.0605s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018968, Final residual = 4.65034e-07, No Iterations 3
+Time = 0.0606s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189598, Final residual = 4.65228e-07, No Iterations 3
+Time = 0.0607s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189517, Final residual = 4.65421e-07, No Iterations 3
+Time = 0.0608s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189436, Final residual = 4.65614e-07, No Iterations 3
+Time = 0.0609s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189355, Final residual = 4.65807e-07, No Iterations 3
+Time = 0.061s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189275, Final residual = 4.65999e-07, No Iterations 3
+Time = 0.0611s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189195, Final residual = 4.66192e-07, No Iterations 3
+Time = 0.0612s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189116, Final residual = 4.66384e-07, No Iterations 3
+Time = 0.0613s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00189037, Final residual = 4.66575e-07, No Iterations 3
+Time = 0.0614s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188959, Final residual = 4.66767e-07, No Iterations 3
+Time = 0.0615s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188881, Final residual = 4.66958e-07, No Iterations 3
+Time = 0.0616s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188804, Final residual = 4.67148e-07, No Iterations 3
+Time = 0.0617s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188726, Final residual = 4.67339e-07, No Iterations 3
+Time = 0.0618s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018865, Final residual = 4.67529e-07, No Iterations 3
+Time = 0.0619s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188573, Final residual = 4.67718e-07, No Iterations 3
+Time = 0.062s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188497, Final residual = 4.67908e-07, No Iterations 3
+Time = 0.0621s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188421, Final residual = 4.68096e-07, No Iterations 3
+Time = 0.0622s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188346, Final residual = 4.68285e-07, No Iterations 3
+Time = 0.0623s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188271, Final residual = 4.68473e-07, No Iterations 3
+Time = 0.0624s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188196, Final residual = 4.6866e-07, No Iterations 3
+Time = 0.0625s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188122, Final residual = 4.68847e-07, No Iterations 3
+Time = 0.0626s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00188048, Final residual = 4.69034e-07, No Iterations 3
+Time = 0.0627s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187974, Final residual = 4.6922e-07, No Iterations 3
+Time = 0.0628s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187901, Final residual = 4.69406e-07, No Iterations 3
+Time = 0.0629s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187828, Final residual = 4.69591e-07, No Iterations 3
+Time = 0.063s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187755, Final residual = 4.69776e-07, No Iterations 3
+Time = 0.0631s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187683, Final residual = 4.69961e-07, No Iterations 3
+Time = 0.0632s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187611, Final residual = 4.70145e-07, No Iterations 3
+Time = 0.0633s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187539, Final residual = 4.70328e-07, No Iterations 3
+Time = 0.0634s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187468, Final residual = 4.70511e-07, No Iterations 3
+Time = 0.0635s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187396, Final residual = 4.70693e-07, No Iterations 3
+Time = 0.0636s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187325, Final residual = 4.70875e-07, No Iterations 3
+Time = 0.0637s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187255, Final residual = 4.71056e-07, No Iterations 3
+Time = 0.0638s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187184, Final residual = 4.71237e-07, No Iterations 3
+Time = 0.0639s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187114, Final residual = 4.71417e-07, No Iterations 3
+Time = 0.064s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00187044, Final residual = 4.71596e-07, No Iterations 3
+Time = 0.0641s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186975, Final residual = 4.71775e-07, No Iterations 3
+Time = 0.0642s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186906, Final residual = 4.71954e-07, No Iterations 3
+Time = 0.0643s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186836, Final residual = 4.72132e-07, No Iterations 3
+Time = 0.0644s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186768, Final residual = 4.72309e-07, No Iterations 3
+Time = 0.0645s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186699, Final residual = 4.72486e-07, No Iterations 3
+Time = 0.0646s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186631, Final residual = 4.72662e-07, No Iterations 3
+Time = 0.0647s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186563, Final residual = 4.72838e-07, No Iterations 3
+Time = 0.0648s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186495, Final residual = 4.73013e-07, No Iterations 3
+Time = 0.0649s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186427, Final residual = 4.73188e-07, No Iterations 3
+Time = 0.065s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018636, Final residual = 4.73362e-07, No Iterations 3
+Time = 0.0651s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186293, Final residual = 4.73535e-07, No Iterations 3
+Time = 0.0652s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186226, Final residual = 4.73708e-07, No Iterations 3
+Time = 0.0653s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186159, Final residual = 4.73881e-07, No Iterations 3
+Time = 0.0654s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186093, Final residual = 4.74052e-07, No Iterations 3
+Time = 0.0655s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00186026, Final residual = 4.74224e-07, No Iterations 3
+Time = 0.0656s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018596, Final residual = 4.74394e-07, No Iterations 3
+Time = 0.0657s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185895, Final residual = 4.74564e-07, No Iterations 3
+Time = 0.0658s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185829, Final residual = 4.74734e-07, No Iterations 3
+Time = 0.0659s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185763, Final residual = 4.74903e-07, No Iterations 3
+Time = 0.066s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185698, Final residual = 4.75071e-07, No Iterations 3
+Time = 0.0661s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185633, Final residual = 4.75239e-07, No Iterations 3
+Time = 0.0662s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185568, Final residual = 4.75406e-07, No Iterations 3
+Time = 0.0663s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185504, Final residual = 4.75572e-07, No Iterations 3
+Time = 0.0664s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185439, Final residual = 4.75738e-07, No Iterations 3
+Time = 0.0665s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185375, Final residual = 4.75903e-07, No Iterations 3
+Time = 0.0666s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185311, Final residual = 4.76068e-07, No Iterations 3
+Time = 0.0667s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185247, Final residual = 4.76232e-07, No Iterations 3
+Time = 0.0668s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185183, Final residual = 4.76396e-07, No Iterations 3
+Time = 0.0669s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018512, Final residual = 4.76558e-07, No Iterations 3
+Time = 0.067s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00185056, Final residual = 4.76721e-07, No Iterations 3
+Time = 0.0671s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184993, Final residual = 4.76882e-07, No Iterations 3
+Time = 0.0672s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018493, Final residual = 4.77043e-07, No Iterations 3
+Time = 0.0673s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184867, Final residual = 4.77203e-07, No Iterations 3
+Time = 0.0674s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184804, Final residual = 4.77362e-07, No Iterations 3
+Time = 0.0675s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184741, Final residual = 4.77521e-07, No Iterations 3
+Time = 0.0676s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184679, Final residual = 4.7768e-07, No Iterations 3
+Time = 0.0677s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184616, Final residual = 4.77837e-07, No Iterations 3
+Time = 0.0678s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184554, Final residual = 4.77994e-07, No Iterations 3
+Time = 0.0679s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184492, Final residual = 4.7815e-07, No Iterations 3
+Time = 0.068s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018443, Final residual = 4.78306e-07, No Iterations 3
+Time = 0.0681s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184368, Final residual = 4.7846e-07, No Iterations 3
+Time = 0.0682s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184307, Final residual = 4.78615e-07, No Iterations 3
+Time = 0.0683s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184245, Final residual = 4.78768e-07, No Iterations 3
+Time = 0.0684s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184184, Final residual = 4.78921e-07, No Iterations 3
+Time = 0.0685s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184122, Final residual = 4.79074e-07, No Iterations 3
+Time = 0.0686s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184061, Final residual = 4.79225e-07, No Iterations 3
+Time = 0.0687s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00184, Final residual = 4.79376e-07, No Iterations 3
+Time = 0.0688s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018394, Final residual = 4.79527e-07, No Iterations 3
+Time = 0.0689s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183879, Final residual = 4.79676e-07, No Iterations 3
+Time = 0.069s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183818, Final residual = 4.79825e-07, No Iterations 3
+Time = 0.0691s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183758, Final residual = 4.79974e-07, No Iterations 3
+Time = 0.0692s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183698, Final residual = 4.80122e-07, No Iterations 3
+Time = 0.0693s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183638, Final residual = 4.80269e-07, No Iterations 3
+Time = 0.0694s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183578, Final residual = 4.80415e-07, No Iterations 3
+Time = 0.0695s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183518, Final residual = 4.80561e-07, No Iterations 3
+Time = 0.0696s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183458, Final residual = 4.80706e-07, No Iterations 3
+Time = 0.0697s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183398, Final residual = 4.80851e-07, No Iterations 3
+Time = 0.0698s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183339, Final residual = 4.80995e-07, No Iterations 3
+Time = 0.0699s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183279, Final residual = 4.81138e-07, No Iterations 3
+Time = 0.07s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018322, Final residual = 4.81281e-07, No Iterations 3
+Time = 0.0701s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183161, Final residual = 4.81423e-07, No Iterations 3
+Time = 0.0702s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183102, Final residual = 4.81564e-07, No Iterations 3
+Time = 0.0703s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00183043, Final residual = 4.81705e-07, No Iterations 3
+Time = 0.0704s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182984, Final residual = 4.81845e-07, No Iterations 3
+Time = 0.0705s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182925, Final residual = 4.81984e-07, No Iterations 3
+Time = 0.0706s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182866, Final residual = 4.82122e-07, No Iterations 3
+Time = 0.0707s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182807, Final residual = 4.8226e-07, No Iterations 3
+Time = 0.0708s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182749, Final residual = 4.82397e-07, No Iterations 3
+Time = 0.0709s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018269, Final residual = 4.82533e-07, No Iterations 3
+Time = 0.071s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182632, Final residual = 4.82669e-07, No Iterations 3
+Time = 0.0711s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182574, Final residual = 4.82804e-07, No Iterations 3
+Time = 0.0712s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182515, Final residual = 4.82938e-07, No Iterations 3
+Time = 0.0713s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182457, Final residual = 4.83072e-07, No Iterations 3
+Time = 0.0714s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182399, Final residual = 4.83205e-07, No Iterations 3
+Time = 0.0715s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182341, Final residual = 4.83337e-07, No Iterations 3
+Time = 0.0716s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182283, Final residual = 4.83469e-07, No Iterations 3
+Time = 0.0717s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182226, Final residual = 4.83599e-07, No Iterations 3
+Time = 0.0718s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182168, Final residual = 4.8373e-07, No Iterations 3
+Time = 0.0719s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018211, Final residual = 4.83859e-07, No Iterations 3
+Time = 0.072s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00182053, Final residual = 4.83988e-07, No Iterations 3
+Time = 0.0721s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181995, Final residual = 4.84116e-07, No Iterations 3
+Time = 0.0722s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181938, Final residual = 4.84243e-07, No Iterations 3
+Time = 0.0723s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018188, Final residual = 4.8437e-07, No Iterations 3
+Time = 0.0724s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181823, Final residual = 4.84496e-07, No Iterations 3
+Time = 0.0725s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181766, Final residual = 4.84621e-07, No Iterations 3
+Time = 0.0726s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181709, Final residual = 4.84746e-07, No Iterations 3
+Time = 0.0727s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181652, Final residual = 4.8487e-07, No Iterations 3
+Time = 0.0728s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181595, Final residual = 4.84993e-07, No Iterations 3
+Time = 0.0729s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181538, Final residual = 4.85116e-07, No Iterations 3
+Time = 0.073s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181481, Final residual = 4.85238e-07, No Iterations 3
+Time = 0.0731s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181425, Final residual = 4.85359e-07, No Iterations 3
+Time = 0.0732s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181368, Final residual = 4.8548e-07, No Iterations 3
+Time = 0.0733s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181312, Final residual = 4.856e-07, No Iterations 3
+Time = 0.0734s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181255, Final residual = 4.85719e-07, No Iterations 3
+Time = 0.0735s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181199, Final residual = 4.85838e-07, No Iterations 3
+Time = 0.0736s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181142, Final residual = 4.85956e-07, No Iterations 3
+Time = 0.0737s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00181086, Final residual = 4.86073e-07, No Iterations 3
+Time = 0.0738s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018103, Final residual = 4.8619e-07, No Iterations 3
+Time = 0.0739s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180974, Final residual = 4.86306e-07, No Iterations 3
+Time = 0.074s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180918, Final residual = 4.86421e-07, No Iterations 3
+Time = 0.0741s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180862, Final residual = 4.86536e-07, No Iterations 3
+Time = 0.0742s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180806, Final residual = 4.8665e-07, No Iterations 3
+Time = 0.0743s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018075, Final residual = 4.86763e-07, No Iterations 3
+Time = 0.0744s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180694, Final residual = 4.86876e-07, No Iterations 3
+Time = 0.0745s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180639, Final residual = 4.86987e-07, No Iterations 3
+Time = 0.0746s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180583, Final residual = 4.87099e-07, No Iterations 3
+Time = 0.0747s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180527, Final residual = 4.87209e-07, No Iterations 3
+Time = 0.0748s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180472, Final residual = 4.87319e-07, No Iterations 3
+Time = 0.0749s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180416, Final residual = 4.87428e-07, No Iterations 3
+Time = 0.075s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180361, Final residual = 4.87536e-07, No Iterations 3
+Time = 0.0751s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180306, Final residual = 4.87644e-07, No Iterations 3
+Time = 0.0752s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018025, Final residual = 4.87751e-07, No Iterations 3
+Time = 0.0753s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180195, Final residual = 4.87858e-07, No Iterations 3
+Time = 0.0754s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018014, Final residual = 4.87963e-07, No Iterations 3
+Time = 0.0755s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00180085, Final residual = 4.88068e-07, No Iterations 3
+Time = 0.0756s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0018003, Final residual = 4.88173e-07, No Iterations 3
+Time = 0.0757s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179975, Final residual = 4.88277e-07, No Iterations 3
+Time = 0.0758s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179919, Final residual = 4.88379e-07, No Iterations 3
+Time = 0.0759s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179864, Final residual = 4.88482e-07, No Iterations 3
+Time = 0.076s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179809, Final residual = 4.88583e-07, No Iterations 3
+Time = 0.0761s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179755, Final residual = 4.88684e-07, No Iterations 3
+Time = 0.0762s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.001797, Final residual = 4.88784e-07, No Iterations 3
+Time = 0.0763s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179645, Final residual = 4.88883e-07, No Iterations 3
+Time = 0.0764s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017959, Final residual = 4.88982e-07, No Iterations 3
+Time = 0.0765s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179535, Final residual = 4.89079e-07, No Iterations 3
+Time = 0.0766s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017948, Final residual = 4.89177e-07, No Iterations 3
+Time = 0.0767s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179426, Final residual = 4.89273e-07, No Iterations 3
+Time = 0.0768s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179371, Final residual = 4.89369e-07, No Iterations 3
+Time = 0.0769s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179316, Final residual = 4.89464e-07, No Iterations 3
+Time = 0.077s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179261, Final residual = 4.89558e-07, No Iterations 3
+Time = 0.0771s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179207, Final residual = 4.89651e-07, No Iterations 3
+Time = 0.0772s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179152, Final residual = 4.89744e-07, No Iterations 3
+Time = 0.0773s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179097, Final residual = 4.89836e-07, No Iterations 3
+Time = 0.0774s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00179043, Final residual = 4.89927e-07, No Iterations 3
+Time = 0.0775s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178988, Final residual = 4.90018e-07, No Iterations 3
+Time = 0.0776s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178933, Final residual = 4.90107e-07, No Iterations 3
+Time = 0.0777s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178879, Final residual = 4.90196e-07, No Iterations 3
+Time = 0.0778s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178824, Final residual = 4.90285e-07, No Iterations 3
+Time = 0.0779s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017877, Final residual = 4.90372e-07, No Iterations 3
+Time = 0.078s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178715, Final residual = 4.90459e-07, No Iterations 3
+Time = 0.0781s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178661, Final residual = 4.90545e-07, No Iterations 3
+Time = 0.0782s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178606, Final residual = 4.90631e-07, No Iterations 3
+Time = 0.0783s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178552, Final residual = 4.90716e-07, No Iterations 3
+Time = 0.0784s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178497, Final residual = 4.908e-07, No Iterations 3
+Time = 0.0785s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178443, Final residual = 4.90883e-07, No Iterations 3
+Time = 0.0786s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178389, Final residual = 4.90965e-07, No Iterations 3
+Time = 0.0787s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178334, Final residual = 4.91047e-07, No Iterations 3
+Time = 0.0788s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017828, Final residual = 4.91128e-07, No Iterations 3
+Time = 0.0789s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178225, Final residual = 4.91209e-07, No Iterations 3
+Time = 0.079s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178171, Final residual = 4.91288e-07, No Iterations 3
+Time = 0.0791s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178117, Final residual = 4.91367e-07, No Iterations 3
+Time = 0.0792s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178062, Final residual = 4.91446e-07, No Iterations 3
+Time = 0.0793s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00178008, Final residual = 4.91523e-07, No Iterations 3
+Time = 0.0794s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177954, Final residual = 4.916e-07, No Iterations 3
+Time = 0.0795s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.001779, Final residual = 4.91676e-07, No Iterations 3
+Time = 0.0796s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177845, Final residual = 4.91751e-07, No Iterations 3
+Time = 0.0797s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177791, Final residual = 4.91826e-07, No Iterations 3
+Time = 0.0798s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177737, Final residual = 4.919e-07, No Iterations 3
+Time = 0.0799s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177682, Final residual = 4.91973e-07, No Iterations 3
+Time = 0.08s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177628, Final residual = 4.92046e-07, No Iterations 3
+Time = 0.0801s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177574, Final residual = 4.92118e-07, No Iterations 3
+Time = 0.0802s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017752, Final residual = 4.92189e-07, No Iterations 3
+Time = 0.0803s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177466, Final residual = 4.92259e-07, No Iterations 3
+Time = 0.0804s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177411, Final residual = 4.92329e-07, No Iterations 3
+Time = 0.0805s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177357, Final residual = 4.92398e-07, No Iterations 3
+Time = 0.0806s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177303, Final residual = 4.92466e-07, No Iterations 3
+Time = 0.0807s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177249, Final residual = 4.92534e-07, No Iterations 3
+Time = 0.0808s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177195, Final residual = 4.92601e-07, No Iterations 3
+Time = 0.0809s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017714, Final residual = 4.92667e-07, No Iterations 3
+Time = 0.081s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177086, Final residual = 4.92732e-07, No Iterations 3
+Time = 0.0811s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00177032, Final residual = 4.92797e-07, No Iterations 3
+Time = 0.0812s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176978, Final residual = 4.92861e-07, No Iterations 3
+Time = 0.0813s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176924, Final residual = 4.92925e-07, No Iterations 3
+Time = 0.0814s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017687, Final residual = 4.92988e-07, No Iterations 3
+Time = 0.0815s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176815, Final residual = 4.9305e-07, No Iterations 3
+Time = 0.0816s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176761, Final residual = 4.93111e-07, No Iterations 3
+Time = 0.0817s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176707, Final residual = 4.93172e-07, No Iterations 3
+Time = 0.0818s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176653, Final residual = 4.93232e-07, No Iterations 3
+Time = 0.0819s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176599, Final residual = 4.93292e-07, No Iterations 3
+Time = 0.082s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176545, Final residual = 4.9335e-07, No Iterations 3
+Time = 0.0821s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176491, Final residual = 4.93408e-07, No Iterations 3
+Time = 0.0822s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176437, Final residual = 4.93465e-07, No Iterations 3
+Time = 0.0823s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176382, Final residual = 4.93522e-07, No Iterations 3
+Time = 0.0824s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176328, Final residual = 4.93577e-07, No Iterations 3
+Time = 0.0825s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176274, Final residual = 4.93632e-07, No Iterations 3
+Time = 0.0826s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017622, Final residual = 4.93687e-07, No Iterations 3
+Time = 0.0827s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176166, Final residual = 4.9374e-07, No Iterations 3
+Time = 0.0828s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176111, Final residual = 4.93793e-07, No Iterations 3
+Time = 0.0829s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176057, Final residual = 4.93845e-07, No Iterations 3
+Time = 0.083s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00176003, Final residual = 4.93896e-07, No Iterations 3
+Time = 0.0831s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175948, Final residual = 4.93947e-07, No Iterations 3
+Time = 0.0832s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175894, Final residual = 4.93997e-07, No Iterations 3
+Time = 0.0833s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017584, Final residual = 4.94047e-07, No Iterations 3
+Time = 0.0834s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175786, Final residual = 4.94095e-07, No Iterations 3
+Time = 0.0835s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175731, Final residual = 4.94143e-07, No Iterations 3
+Time = 0.0836s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175677, Final residual = 4.94191e-07, No Iterations 3
+Time = 0.0837s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175623, Final residual = 4.94237e-07, No Iterations 3
+Time = 0.0838s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175568, Final residual = 4.94283e-07, No Iterations 3
+Time = 0.0839s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175514, Final residual = 4.94329e-07, No Iterations 3
+Time = 0.084s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017546, Final residual = 4.94374e-07, No Iterations 3
+Time = 0.0841s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175405, Final residual = 4.94418e-07, No Iterations 3
+Time = 0.0842s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175351, Final residual = 4.94461e-07, No Iterations 3
+Time = 0.0843s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175297, Final residual = 4.94504e-07, No Iterations 3
+Time = 0.0844s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175242, Final residual = 4.94546e-07, No Iterations 3
+Time = 0.0845s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175188, Final residual = 4.94587e-07, No Iterations 3
+Time = 0.0846s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175134, Final residual = 4.94627e-07, No Iterations 3
+Time = 0.0847s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175079, Final residual = 4.94667e-07, No Iterations 3
+Time = 0.0848s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00175025, Final residual = 4.94707e-07, No Iterations 3
+Time = 0.0849s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174971, Final residual = 4.94745e-07, No Iterations 3
+Time = 0.085s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174916, Final residual = 4.94783e-07, No Iterations 3
+Time = 0.0851s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174862, Final residual = 4.9482e-07, No Iterations 3
+Time = 0.0852s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174807, Final residual = 4.94857e-07, No Iterations 3
+Time = 0.0853s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174753, Final residual = 4.94892e-07, No Iterations 3
+Time = 0.0854s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174698, Final residual = 4.94927e-07, No Iterations 3
+Time = 0.0855s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174644, Final residual = 4.94962e-07, No Iterations 3
+Time = 0.0856s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174589, Final residual = 4.94995e-07, No Iterations 3
+Time = 0.0857s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174534, Final residual = 4.95029e-07, No Iterations 3
+Time = 0.0858s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017448, Final residual = 4.95061e-07, No Iterations 3
+Time = 0.0859s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174425, Final residual = 4.95092e-07, No Iterations 3
+Time = 0.086s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174371, Final residual = 4.95123e-07, No Iterations 3
+Time = 0.0861s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174316, Final residual = 4.95153e-07, No Iterations 3
+Time = 0.0862s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174261, Final residual = 4.95183e-07, No Iterations 3
+Time = 0.0863s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174206, Final residual = 4.95212e-07, No Iterations 3
+Time = 0.0864s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174152, Final residual = 4.9524e-07, No Iterations 3
+Time = 0.0865s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174097, Final residual = 4.95267e-07, No Iterations 3
+Time = 0.0866s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00174042, Final residual = 4.95294e-07, No Iterations 3
+Time = 0.0867s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173987, Final residual = 4.9532e-07, No Iterations 3
+Time = 0.0868s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173932, Final residual = 4.95345e-07, No Iterations 3
+Time = 0.0869s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173877, Final residual = 4.95369e-07, No Iterations 3
+Time = 0.087s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173823, Final residual = 4.95393e-07, No Iterations 3
+Time = 0.0871s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173768, Final residual = 4.95416e-07, No Iterations 3
+Time = 0.0872s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173713, Final residual = 4.95439e-07, No Iterations 3
+Time = 0.0873s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173658, Final residual = 4.95461e-07, No Iterations 3
+Time = 0.0874s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173602, Final residual = 4.95482e-07, No Iterations 3
+Time = 0.0875s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173547, Final residual = 4.95502e-07, No Iterations 3
+Time = 0.0876s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173492, Final residual = 4.95521e-07, No Iterations 3
+Time = 0.0877s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173437, Final residual = 4.9554e-07, No Iterations 3
+Time = 0.0878s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173382, Final residual = 4.95558e-07, No Iterations 3
+Time = 0.0879s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173327, Final residual = 4.95576e-07, No Iterations 3
+Time = 0.088s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173271, Final residual = 4.95592e-07, No Iterations 3
+Time = 0.0881s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173216, Final residual = 4.95608e-07, No Iterations 3
+Time = 0.0882s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017316, Final residual = 4.95623e-07, No Iterations 3
+Time = 0.0883s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00173105, Final residual = 4.95638e-07, No Iterations 3
+Time = 0.0884s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017305, Final residual = 4.95652e-07, No Iterations 3
+Time = 0.0885s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172994, Final residual = 4.95665e-07, No Iterations 3
+Time = 0.0886s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172938, Final residual = 4.95677e-07, No Iterations 3
+Time = 0.0887s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172883, Final residual = 4.95689e-07, No Iterations 3
+Time = 0.0888s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172827, Final residual = 4.957e-07, No Iterations 3
+Time = 0.0889s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172771, Final residual = 4.9571e-07, No Iterations 3
+Time = 0.089s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172716, Final residual = 4.95719e-07, No Iterations 3
+Time = 0.0891s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017266, Final residual = 4.95728e-07, No Iterations 3
+Time = 0.0892s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172604, Final residual = 4.95736e-07, No Iterations 3
+Time = 0.0893s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172548, Final residual = 4.95744e-07, No Iterations 3
+Time = 0.0894s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172492, Final residual = 4.95751e-07, No Iterations 3
+Time = 0.0895s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172437, Final residual = 4.95757e-07, No Iterations 3
+Time = 0.0896s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172381, Final residual = 4.95762e-07, No Iterations 3
+Time = 0.0897s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172325, Final residual = 4.95767e-07, No Iterations 3
+Time = 0.0898s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172269, Final residual = 4.95771e-07, No Iterations 3
+Time = 0.0899s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172213, Final residual = 4.95774e-07, No Iterations 3
+Time = 0.09s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172157, Final residual = 4.95777e-07, No Iterations 3
+Time = 0.0901s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.001721, Final residual = 4.95779e-07, No Iterations 3
+Time = 0.0902s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00172044, Final residual = 4.9578e-07, No Iterations 3
+Time = 0.0903s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171988, Final residual = 4.95781e-07, No Iterations 3
+Time = 0.0904s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171932, Final residual = 4.95781e-07, No Iterations 3
+Time = 0.0905s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171876, Final residual = 4.95781e-07, No Iterations 3
+Time = 0.0906s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171819, Final residual = 4.95779e-07, No Iterations 3
+Time = 0.0907s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171763, Final residual = 4.95777e-07, No Iterations 3
+Time = 0.0908s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171707, Final residual = 4.95775e-07, No Iterations 3
+Time = 0.0909s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0017165, Final residual = 4.95772e-07, No Iterations 3
+Time = 0.091s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171594, Final residual = 4.95768e-07, No Iterations 3
+Time = 0.0911s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171537, Final residual = 4.95763e-07, No Iterations 3
+Time = 0.0912s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171481, Final residual = 4.95758e-07, No Iterations 3
+Time = 0.0913s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171424, Final residual = 4.95752e-07, No Iterations 3
+Time = 0.0914s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171368, Final residual = 4.95745e-07, No Iterations 3
+Time = 0.0915s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171311, Final residual = 4.95738e-07, No Iterations 3
+Time = 0.0916s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171254, Final residual = 4.9573e-07, No Iterations 3
+Time = 0.0917s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171198, Final residual = 4.95721e-07, No Iterations 3
+Time = 0.0918s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171141, Final residual = 4.95712e-07, No Iterations 3
+Time = 0.0919s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171084, Final residual = 4.95702e-07, No Iterations 3
+Time = 0.092s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00171028, Final residual = 4.95692e-07, No Iterations 3
+Time = 0.0921s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170971, Final residual = 4.95681e-07, No Iterations 3
+Time = 0.0922s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170914, Final residual = 4.95669e-07, No Iterations 3
+Time = 0.0923s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170857, Final residual = 4.95656e-07, No Iterations 3
+Time = 0.0924s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.001708, Final residual = 4.95643e-07, No Iterations 3
+Time = 0.0925s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170743, Final residual = 4.9563e-07, No Iterations 3
+Time = 0.0926s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170686, Final residual = 4.95615e-07, No Iterations 3
+Time = 0.0927s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170629, Final residual = 4.956e-07, No Iterations 3
+Time = 0.0928s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170572, Final residual = 4.95585e-07, No Iterations 3
+Time = 0.0929s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170515, Final residual = 4.95568e-07, No Iterations 3
+Time = 0.093s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170458, Final residual = 4.95552e-07, No Iterations 3
+Time = 0.0931s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170401, Final residual = 4.95534e-07, No Iterations 3
+Time = 0.0932s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170343, Final residual = 4.95516e-07, No Iterations 3
+Time = 0.0933s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170286, Final residual = 4.95497e-07, No Iterations 3
+Time = 0.0934s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170229, Final residual = 4.95477e-07, No Iterations 3
+Time = 0.0935s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170171, Final residual = 4.95457e-07, No Iterations 3
+Time = 0.0936s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170114, Final residual = 4.95436e-07, No Iterations 3
+Time = 0.0937s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00170057, Final residual = 4.95415e-07, No Iterations 3
+Time = 0.0938s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169999, Final residual = 4.95393e-07, No Iterations 3
+Time = 0.0939s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169942, Final residual = 4.9537e-07, No Iterations 3
+Time = 0.094s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169884, Final residual = 4.95346e-07, No Iterations 3
+Time = 0.0941s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169827, Final residual = 4.95322e-07, No Iterations 3
+Time = 0.0942s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169769, Final residual = 4.95298e-07, No Iterations 3
+Time = 0.0943s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169711, Final residual = 4.95272e-07, No Iterations 3
+Time = 0.0944s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169654, Final residual = 4.95246e-07, No Iterations 3
+Time = 0.0945s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169596, Final residual = 4.95219e-07, No Iterations 3
+Time = 0.0946s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169538, Final residual = 4.95192e-07, No Iterations 3
+Time = 0.0947s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0016948, Final residual = 4.95163e-07, No Iterations 3
+Time = 0.0948s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169422, Final residual = 4.95135e-07, No Iterations 3
+Time = 0.0949s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169364, Final residual = 4.95105e-07, No Iterations 3
+Time = 0.095s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169306, Final residual = 4.95075e-07, No Iterations 3
+Time = 0.0951s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169248, Final residual = 4.95044e-07, No Iterations 3
+Time = 0.0952s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169189, Final residual = 4.95012e-07, No Iterations 3
+Time = 0.0953s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169131, Final residual = 4.9498e-07, No Iterations 3
+Time = 0.0954s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169073, Final residual = 4.94947e-07, No Iterations 3
+Time = 0.0955s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00169014, Final residual = 4.94913e-07, No Iterations 3
+Time = 0.0956s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168956, Final residual = 4.94879e-07, No Iterations 3
+Time = 0.0957s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168897, Final residual = 4.94844e-07, No Iterations 3
+Time = 0.0958s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168839, Final residual = 4.94809e-07, No Iterations 3
+Time = 0.0959s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0016878, Final residual = 4.94772e-07, No Iterations 3
+Time = 0.096s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168721, Final residual = 4.94735e-07, No Iterations 3
+Time = 0.0961s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168663, Final residual = 4.94698e-07, No Iterations 3
+Time = 0.0962s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168604, Final residual = 4.94659e-07, No Iterations 3
+Time = 0.0963s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168545, Final residual = 4.94621e-07, No Iterations 3
+Time = 0.0964s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168486, Final residual = 4.94581e-07, No Iterations 3
+Time = 0.0965s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168427, Final residual = 4.94541e-07, No Iterations 3
+Time = 0.0966s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168368, Final residual = 4.945e-07, No Iterations 3
+Time = 0.0967s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168309, Final residual = 4.94459e-07, No Iterations 3
+Time = 0.0968s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0016825, Final residual = 4.94416e-07, No Iterations 3
+Time = 0.0969s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168191, Final residual = 4.94374e-07, No Iterations 3
+Time = 0.097s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168131, Final residual = 4.9433e-07, No Iterations 3
+Time = 0.0971s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168072, Final residual = 4.94286e-07, No Iterations 3
+Time = 0.0972s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00168013, Final residual = 4.94241e-07, No Iterations 3
+Time = 0.0973s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167953, Final residual = 4.94196e-07, No Iterations 3
+Time = 0.0974s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167894, Final residual = 4.9415e-07, No Iterations 3
+Time = 0.0975s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167834, Final residual = 4.94103e-07, No Iterations 3
+Time = 0.0976s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167775, Final residual = 4.94056e-07, No Iterations 3
+Time = 0.0977s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167715, Final residual = 4.94008e-07, No Iterations 3
+Time = 0.0978s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167655, Final residual = 4.93959e-07, No Iterations 3
+Time = 0.0979s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167596, Final residual = 4.9391e-07, No Iterations 3
+Time = 0.098s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167536, Final residual = 4.9386e-07, No Iterations 3
+Time = 0.0981s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167476, Final residual = 4.93809e-07, No Iterations 3
+Time = 0.0982s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167416, Final residual = 4.93758e-07, No Iterations 3
+Time = 0.0983s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167356, Final residual = 4.93706e-07, No Iterations 3
+Time = 0.0984s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167296, Final residual = 4.93654e-07, No Iterations 3
+Time = 0.0985s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167235, Final residual = 4.93601e-07, No Iterations 3
+Time = 0.0986s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167175, Final residual = 4.93547e-07, No Iterations 3
+Time = 0.0987s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167115, Final residual = 4.93492e-07, No Iterations 3
+Time = 0.0988s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00167055, Final residual = 4.93437e-07, No Iterations 3
+Time = 0.0989s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166994, Final residual = 4.93381e-07, No Iterations 3
+Time = 0.099s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166934, Final residual = 4.93325e-07, No Iterations 3
+Time = 0.0991s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166873, Final residual = 4.93268e-07, No Iterations 3
+Time = 0.0992s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166813, Final residual = 4.9321e-07, No Iterations 3
+Time = 0.0993s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166752, Final residual = 4.93152e-07, No Iterations 3
+Time = 0.0994s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166691, Final residual = 4.93093e-07, No Iterations 3
+Time = 0.0995s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0016663, Final residual = 4.93034e-07, No Iterations 3
+Time = 0.0996s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.0016657, Final residual = 4.92973e-07, No Iterations 3
+Time = 0.0997s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166509, Final residual = 4.92913e-07, No Iterations 3
+Time = 0.0998s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166448, Final residual = 4.92851e-07, No Iterations 3
+Time = 0.0999s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166387, Final residual = 4.92789e-07, No Iterations 3
+Time = 0.1s
+
+DILUPBiCGStab:  Solving for T, Initial residual = 0.00166326, Final residual = 4.92727e-07, No Iterations 3
+End
+

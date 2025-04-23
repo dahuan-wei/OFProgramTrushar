@@ -1,0 +1,35 @@
+set terminal 
+#set terminal x11
+#set terminal pdf 
+#set output "CFL.pdf"
+
+#set term postscript color
+#set output "solution.ps"
+
+set title 'Solution at time 0.5 s' 
+
+set xlabel 'Length'
+set ylabel 'T' 
+
+set xtics 0,0.1,1.
+set grid
+
+
+#set key font ',6'
+#set key spacing 0.5
+#set key samplen 2
+#set key top
+
+
+plot [][-0.2:1.2] \
+ 'exactSolution/exactSolution.txt' u 1:2 w l lw 2 lt 3 lc rgb 'black' title 'Exact Solution', \
+ '../001-CFL-0.01/postProcessing/sets/0.5/line_centreProfile_T.xy' u 1:2 w l lw 2 lt 3 lc rgb 'red' title 'CFL = 0.01', \
+ '../002-CFL-0.1/postProcessing/sets/0.5/line_centreProfile_T.xy' u 1:2 w l lw 2 lt 3 lc rgb 'blue' title 'CFL = 0.1', \
+ '../003-CFL-0.5/postProcessing/sets/0.5/line_centreProfile_T.xy' u 1:2 w l lw 2 lt 3 lc rgb 'cyan' title 'CFL = 0.5', \
+ '../004-CFL-1/postProcessing/sets/0.5/line_centreProfile_T.xy' u 1:2 w l lw 2 lt 3 lc rgb 'brown' title 'CFL = 1.0', \
+ '../005-CFL-5/postProcessing/sets/0.5/line_centreProfile_T.xy' u 1:2 w l lw 2 lt 3 lc rgb 'coral' title 'CFL = 5.0', \
+ '../006-CFL-10/postProcessing/sets/0.5/line_centreProfile_T.xy' u 1:2 w l lw 2 lt 3 lc rgb 'gold' title 'CFL = 10.0'
+
+pause -1
+
+#    EOF

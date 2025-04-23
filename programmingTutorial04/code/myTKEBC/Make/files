@@ -1,0 +1,7 @@
+myTKEBCFvPatchScalarField.C 
+
+LIB = $(FOAM_USER_LIBBIN)/myTKEBC
+
+
+
+
