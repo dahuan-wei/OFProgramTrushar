@@ -1,0 +1,22 @@
+#Steps to run the case
+
+#To clean the directory, this is optional
+
+foamCleanTutorials
+
+foamCleanPolyMesh
+
+#To generate the mesh and check mesh quality
+
+fluentMeshToFoam mesh/2d_Pipe.msh
+
+#To run in serial
+
+icoFoam > log.icoFoam &
+
+#Visualization
+
+paraFoam
+
+
+

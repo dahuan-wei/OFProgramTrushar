@@ -1,0 +1,24 @@
+1)	parabolic Velocity
+
+		u(r) = 2 Vavg (1 - (r/R)^2)
+		Umax = 2 Vavg
+
+		u(r) = Umax (1 - (r/R)^2)
+
+2)	time varing parabolic BC
+
+		U(r,t) = u(r) sin(omega*time)
+
+3)	paraboloid
+
+
+		u(y,z) = Umax (1 - (r/R)^2)
+        r = sqrt(y^2+z^2)
+
+
+First type:
+
+wclean .all
+
+wmake libso
+// compiled udner the openfoam 2406
