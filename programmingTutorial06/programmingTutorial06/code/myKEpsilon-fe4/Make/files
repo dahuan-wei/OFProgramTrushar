@@ -1,3 +1,0 @@
-myKEpsilon.C
-
-LIB = $(FOAM_USER_LIBBIN)/myKEpsilonTurbulenceModels

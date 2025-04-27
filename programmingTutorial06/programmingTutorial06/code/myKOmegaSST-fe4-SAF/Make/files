@@ -1,3 +1,0 @@
-myKOmegaSST.C
-
-LIB = $(FOAM_USER_LIBBIN)/myKOmegaSSTSAFTurbulenceModels
